@@ -1,0 +1,1480 @@
+6-10(tanh)-1(linear), sgd(lr=0.1),  epochs=20  || 3791 | 3804 | 3814 | 3926 | 3799 || 3826
+6-10(tanh)-1(linear), sgd(lr=0.1),  epochs=50  || 3794 | 3813 | 3801 | 3793 | 3813 || 3802
+6-10(tanh)-1(linear), sgd(lr=0.1),  epochs=100 || 3799 | 3852 | 3797 | 3809 | 3796 || 3810
+6-10(tanh)-1(linear), sgd(lr=0.1),  epochs=50  || 3814 | 3815 | 3820 | 3802 | 3794 || 3809
+6-10(tanh)-1(linear), sgd(lr=0.2),  epochs=50  || 3885 | 3798 | 3833 | 3825 | 4064 || 3881
+6-10(tanh)-1(linear), sgd(lr=0.05), epochs=50  || 3796 | 3818 | 3794 | 3795 | 3793 || 3799
+6-10(tanh)-1(linear), sgd(lr=0.02), epochs=50  || 3793 | 3809 | 3793 | 3796 | 3815 || 3801
+6-10(tanh)-1(linear), sgd(lr=0.05), epochs=50  || 3808 | 3817 | 3857 | 3804 | 3795 || 3816
+6-10(tanh)-1(linear), sgd(lr=0.05), epochs=50  || 4020 | 3796 | 3907 | 3794 | 3797 || 3862
+
+
+ANN
+
+6-10(tanh)-1(linear), sgd(lr=0.1),   epochs=20   | +infty
+6-10(tanh)-1(linear), sgd(lr=0.01),  epochs=20   | 61311 | 59592 | 59425 || 60109
+6-10(tanh)-1(linear), sgd(lr=0.01),  epochs=50   | 59483 | 60847 | 59711 || 60013
+6-10(tanh)-1(linear), sgd(lr=0.01),  epochs=100  | 59662 | 59596 | 59724 || 59660
+6-10(tanh)-1(linear), sgd(lr=0.01),  epochs=200  | 59441 | 59818 | 60113 || 59790
+6-10(tanh)-1(linear), sgd(lr=0.01),  epochs=100  | 59510 | 59991 | 59717 || 59739
+6-15(tanh)-1(linear), sgd(lr=0.01),  epochs=100  | 62057
+6- 7(tanh)-1(linear), sgd(lr=0.01),  epochs=100  | 60074 | 59615 | 59579 || 59756
+6-10(tanh)-1(linear), sgd(lr=0.02),  epochs=100  | 59421 | 59466 | 63380 || 60755
+
+
+GradientBoostingRegressor
+
+lr=0.10, n_est= 100, max_depth=3, min_split=2, min_leaf=1 | 272 | 304 | 250 || 275
+lr=0.10, n_est= 200, max_depth=3, min_split=2, min_leaf=1 | 199 | 167 | 166 || 177
+lr=0.10, n_est= 500, max_depth=3, min_split=2, min_leaf=1 | 186 | 209 | 109 || 168
+lr=0.10, n_est=1000, max_depth=3, min_split=2, min_leaf=1 |  75 |  86 | 100 ||  87
+lr=0.10, n_est=2000, max_depth=3, min_split=2, min_leaf=1 | 119 | 120 | 106 || 115
+lr=0.10, n_est=1000, max_depth=3, min_split=2, min_leaf=1 |  98 |  99 | 114 || 103
+lr=0.20, n_est=1000, max_depth=3, min_split=2, min_leaf=1 | 121 |  65 | 118 || 101
+lr=0.07, n_est=1000, max_depth=3, min_split=2, min_leaf=1 | 116 | 218 |  74 || 136
+lr=0.10, n_est=1000, max_depth=3, min_split=2, min_leaf=1 | 127 | 125 | 120 || 124
+lr=0.10, n_est=1000, max_depth=3, min_split=2, min_leaf=1 | 152 | 113 | 116 || 127
+
+
+GradientBoostingRegressor with fixed noising seed
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1 | 77.2 | 76.7 | 77.5 || 77.1
+lr=0.200, n_est=1000, max_depth=3, min_split=2, min_leaf=1 | 96.4 | 94.3 | 95.3 || 95.3
+lr=0.070, n_est=1000, max_depth=3, min_split=2, min_leaf=1 |  120 |  121 |  121 || 121
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1 | 76.1 | 76.6 | 76.3 || 76.3
+lr=0.150, n_est=1000, max_depth=3, min_split=2, min_leaf=1 | 99.4 | 97.9 | 99.1 || 98.8
+lr=0.120, n_est=1000, max_depth=3, min_split=2, min_leaf=1 | 91.9 | 93.0 | 92.6 || 92.5
+lr=0.090, n_est=1000, max_depth=3, min_split=2, min_leaf=1 | 98.2 | 96.7 | 97.7 || 97.5
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1 | 76.4 | 76.4 | 76.9 || 76.7
+lr=0.101, n_est=1000, max_depth=3, min_split=2, min_leaf=1 |  115 |  114 |  115 || 115
+lr=0.099, n_est=1000, max_depth=3, min_split=2, min_leaf=1 |  110 |  110 |  111 || 110
+lr=0.121, n_est=1000, max_depth=3, min_split=2, min_leaf=1 | 96.6 | 98.6 | 98.0 || 97.7
+lr=0.119, n_est=1000, max_depth=3, min_split=2, min_leaf=1 |  119 |  117 |  116 || 117
+
+
+=== 2018-03-13 added experiment ===
+val_t=simple_split
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_s=0 | 77.1 | 77.1 | 75.9 || 76.7
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_s=1 | 75.8 | 75.3 | 75.7 || 75.6
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_s=2 |  103 |  103 |  103 || 103
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_s=3 | 83.1 | 82.6 | 83.1 || 82.9
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_s=4 | 87.4 | 88.2 | 87.3 || 87.3
+=== end of experiment ===
+
+GradientBoostingRegressor with fixed noising seed
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1
+
+val_t=k_fold, n_split=10, split_seed=0 | 79.2 | 79.8 | 79.3 || 79.4
+val_t=k_fold, n_split=10, split_seed=1 | 80.3 | 80.3 | 80.1 || 80.2
+val_t=k_fold, n_split=10, split_seed=2 | 73.2 | 73.0 | 72.9 || 73.0
+val_t=k_fold, n_split=10, split_seed=3 | 74.8 | 75.4 | 75.5 || 75.2
+val_t=k_fold, n_split=10, split_seed=4 | 67.3 | 67.6 | 67.7 || 67.5
+delta=12.7, var=
+
+val_t=k_fold, n_split=20, split_seed=0 | 73.9 | 73.9 | 73.6 || 73.8
+val_t=k_fold, n_split=20, split_seed=1 | 74.1 | 74.4 | 74.5 || 74.3
+val_t=k_fold, n_split=20, split_seed=2 | 67.0 | 66.8 | 66.9 || 66.9
+val_t=k_fold, n_split=20, split_seed=3 | 67.8 | 66.8 | 67.4 || 67.3
+val_t=k_fold, n_split=20, split_seed=4 | 67.7 | 67.9 | 68.1 || 67.9
+delta=7.4, var=
+
+val_t=k_fold, n_split=30, split_seed=0 | 67.0 | 67.0 | 67.2 || 67.1
+val_t=k_fold, n_split=30, split_seed=1 | 66.9 | 67.1 | 67.3 || 67.1
+val_t=k_fold, n_split=30, split_seed=2 | 71.5 | 71.5 | 71.5 || 71.5
+val_t=k_fold, n_split=30, split_seed=3 | 66.0 | 66.1 | 65.7 || 65.9
+val_t=k_fold, n_split=30, split_seed=4 | 62.0 | 61.9 | 62.1 || 62.0
+delta=9.5, var=
+
+val_t=k_fold, n_split=50, split_seed=0 | 60.2 | 60.4 | 60.2 || 60.3
+val_t=k_fold, n_split=50, split_seed=1 | 66.3 | 66.5 | 66.3 || 66.4
+val_t=k_fold, n_split=50, split_seed=2 | 69.7 | ...
+val_t=k_fold, n_split=50, split_seed=3 | 59.1 | 59.2
+val_t=k_fold, n_split=50, split_seed=4 | 60.6 |
+delta=..., var=
+
+
+
+GradientBoostingRegressor with fixed noising seed
+Validation settings: val_t=k_fold, n_split=20
+
+lr=0.101, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=0 | 68.1
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=0 | 73.6
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=1 | 74.0
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=2 | 66.8
+lr=0.200, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=0 | 71.3
+lr=0.050, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=0 | 69.8 
+
+
+GradientBoostingRegressor with fixed noising seed
+Validation settings: val_t=k_fold, n_split=20
+Target label: Depth
+lr=0.200, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=0 | 0.966
+lr=0.200, n_est= 300, max_depth=3, min_split=2, min_leaf=1, split_seed=0 | 1.031
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=0 | 0.932
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=1 | 0.943
+lr=0.100, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=2 | 0.909
+lr=0.030, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=0 | 1.140
+lr=0.080, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=0 | 0.942
+lr=0.080, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=1 | 0.997
+lr=0.150, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=0 | 0.956
+lr=0.150, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=1 | 0.972
+lr=0.101, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=0 | 0.919
+lr=0.120, n_est=1000, max_depth=3, min_split=2, min_leaf=1, split_seed=0 | 0.935
+
+
+
+
+{'number_of_epochs': 10, 'learning_rate': 0.1, 'model_name': 'NeuralNet', 'layers': [{'size': 20, 'activation': 'relu'}]}
+Mean sqr error: 114574.50891397796
+Mean abs error: 274.78099027890494
+[0.005050606150882587, 0.05492837838932526]
+
+{'layers': [{'activation': 'relu', 'size': 20}], 'learning_rate': 0.1, 'model_name': 'NeuralNet', 'number_of_epochs': 10}
+Mean sqr error: 113309.00461208068
+Mean abs error: 272.89026734865985
+[0.005151494911722961, 0.053790007033551385]
+
+{'learning_rate': 0.1, 'number_of_epochs': 10, 'layers': [{'activation': 'relu', 'size': 20}], 'model_name': 'NeuralNet'}
+Mean sqr error: 111673.16082884869
+Mean abs error: 271.37107277143946
+[0.0036250065265876104, 0.04803419544253239]
+
+
+{'layers': [{'size': 30, 'activation': 'relu'}], 'learning_rate': 0.1, 'number_of_epochs': 10, 'model_name': 'NeuralNet'}
+Mean sqr error: 110150.58988070031
+Mean abs error: 269.49872258192903
+[0.004552484578877381, 0.05214041255472243]
+
+{'number_of_epochs': 10, 'learning_rate': 0.1, 'model_name': 'NeuralNet', 'layers': [{'activation': 'relu', 'size': 30}]}
+Mean sqr error: 111667.9301489796
+Mean abs error: 271.2203395114761
+[0.0041087582544095695, 0.04830826013125191]
+
+{'number_of_epochs': 10, 'layers': [{'activation': 'relu', 'size': 30}], 'model_name': 'NeuralNet', 'learning_rate': 0.1}
+Mean sqr error: 107294.75787698873
+Mean abs error: 266.5464732534062
+[0.004239658441831186, 0.05232972712526027]
+
+
+{'model_name': 'NeuralNet', 'learning_rate': 0.1, 'number_of_epochs': 10, 'layers': [{'size': 50, 'activation': 'relu'}]}
+Mean sqr error: 113432.88326401185
+Mean abs error: 273.1822593056194
+[0.0037793749711839066, 0.044959666586661534]
+
+{'learning_rate': 0.1, 'model_name': 'NeuralNet', 'number_of_epochs': 10, 'layers': [{'size': 50, 'activation': 'relu'}]}
+Mean sqr error: 115499.70430894918
+Mean abs error: 275.8041677377712
+[0.0038979187502526094, 0.048598386173100444]
+
+{'model_name': 'NeuralNet', 'number_of_epochs': 10, 'learning_rate': 0.1, 'layers': [{'activation': 'relu', 'size': 50}]}
+Mean sqr error: 114187.18310019435
+Mean abs error: 274.4374563336716
+[0.004611699565112218, 0.05321288711618085]
+
+
+{'learning_rate': 0.1, 'layers': [{'size': 30, 'activation': 'relu'}], 'model_name': 'NeuralNet', 'number_of_epochs': 10}
+Mean sqr error: 114391.99511161927
+Mean abs error: 274.50156038466406
+[0.004369403927662935, 0.0503465850953908]
+
+{'learning_rate': 0.1, 'layers': [{'activation': 'relu', 'size': 30}], 'model_name': 'NeuralNet', 'number_of_epochs': 10}
+Mean sqr error: 112222.78661002344
+Mean abs error: 272.2589918194887
+[0.004034138698253104, 0.05002190216798192]
+
+{'number_of_epochs': 10, 'learning_rate': 0.1, 'model_name': 'NeuralNet', 'layers': [{'size': 30, 'activation': 'relu'}]}
+Mean sqr error: 111178.96917510928
+Mean abs error: 270.8776452188258
+[0.004188929764115486, 0.05064129200878071]
+
+
+{'learning_rate': 0.1, 'number_of_epochs': 20, 'model_name': 'NeuralNet', 'layers': [{'size': 30, 'activation': 'relu'}]}
+Mean sqr error: 112285.13314990599
+Mean abs error: 272.06270534059627
+[0.0033072378348510964, 0.043238526695458475]
+
+{'layers': [{'size': 30, 'activation': 'relu'}], 'model_name': 'NeuralNet', 'number_of_epochs': 20, 'learning_rate': 0.1}
+Mean sqr error: 110633.10988290972
+Mean abs error: 270.71377688664586
+[0.004156101374452397, 0.04940972784046056]
+
+{'number_of_epochs': 20, 'model_name': 'NeuralNet', 'learning_rate': 0.1, 'layers': [{'size': 30, 'activation': 'relu'}]}
+Mean sqr error: 109030.83195695047
+Mean abs error: 268.3314393058927
+[0.0038107888252571468, 0.04675636754664341]
+
+{'number_of_epochs': 20, 'layers': [{'size': 30, 'activation': 'relu'}], 'learning_rate': 0.1, 'model_name': 'NeuralNet'}
+Mean sqr error: 113198.42819454322
+Mean abs error: 273.1438448653901
+[0.003499450829955515, 0.045587495440660535]
+
+NeuralNet
+number_of_epochs: 30
+{'number_of_epochs': 30, 'model_name': 'NeuralNet', 'learning_rate': 0.1, 'layers': [{'activation': 'relu', 'size': 30}]}
+Mean sqr error: 112525.01482715888
+Mean abs error: 272.45581674718363
+[0.0038536837250414038, 0.04661299446109655]
+
+NeuralNet
+number_of_epochs: 30
+{'number_of_epochs': 30, 'learning_rate': 0.1, 'layers': [{'activation': 'relu', 'size': 30}], 'model_name': 'NeuralNet'}
+Mean sqr error: 113490.55380667541
+Mean abs error: 273.64821761824874
+[0.0038825549111188885, 0.048660874464253136]
+
+NeuralNet
+number_of_epochs: 30
+{'model_name': 'NeuralNet', 'learning_rate': 0.1, 'number_of_epochs': 30, 'layers': [{'activation': 'relu', 'size': 30}]}
+Mean sqr error: 113768.0059417309
+Mean abs error: 274.21661840645453
+[0.0038946563689885444, 0.04903454583790876]
+
+NeuralNet
+number_of_epochs: 20
+{'learning_rate': 0.1, 'layers': [{'activation': 'relu', 'size': 30}], 'model_name': 'NeuralNet', 'number_of_epochs': 20}
+Mean sqr error: 116201.80067317782
+Mean abs error: 276.434979107652
+[0.00371185483769101, 0.044397551174311684]
+
+NeuralNet
+number_of_epochs: 20
+{'learning_rate': 0.1, 'number_of_epochs': 20, 'layers': [{'activation': 'relu', 'size': 30}], 'model_name': 'NeuralNet'}
+Mean sqr error: 110357.63057910242
+Mean abs error: 270.15272110574347
+[0.0034960404426666244, 0.04585315317377565]
+
+NeuralNet
+number_of_epochs: 20
+{'learning_rate': 0.1, 'model_name': 'NeuralNet', 'layers': [{'activation': 'relu', 'size': 30}], 'number_of_epochs': 20}
+Mean sqr error: 113692.08899055794
+Mean abs error: 273.66051147882376
+[0.003610711342571549, 0.04486798009853956]
+
+NeuralNet
+number_of_epochs: 20
+{'learning_rate': 0.1, 'layers': [{'size': 30, 'activation': 'relu'}], 'number_of_epochs': 20, 'model_name': 'NeuralNet'}
+Mean sqr error: 110447.3168391214
+Mean abs error: 270.3447302566341
+[0.003953743964239415, 0.04922355224873669]
+
+NeuralNet
+number_of_epochs: 20
+{'number_of_epochs': 20, 'learning_rate': 0.05, 'model_name': 'NeuralNet', 'layers': [{'size': 30, 'activation': 'relu'}]}
+Mean sqr error: 106801.25677631181
+Mean abs error: 265.9190329862797
+[0.005163890301159545, 0.056791346304176406]
+
+NeuralNet
+learning_rate: 0.05
+number_of_epochs: 20
+{'number_of_epochs': 20, 'layers': [{'activation': 'relu', 'size': 30}], 'learning_rate': 0.05, 'model_name': 'NeuralNet'}
+Mean sqr error: 111626.37743413694
+Mean abs error: 271.4429897043103
+[0.004675181362272809, 0.05456271500504295]
+
+NeuralNet
+learning_rate: 0.05
+number_of_epochs: 20
+{'number_of_epochs': 20, 'layers': [{'activation': 'relu', 'size': 30}], 'model_name': 'NeuralNet', 'learning_rate': 0.05}
+Mean sqr error: 109760.76105578766
+Mean abs error: 269.2288004730704
+[0.004381616519390453, 0.051449498842390945]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 20
+{'learning_rate': 0.02, 'model_name': 'NeuralNet', 'layers': [{'activation': 'relu', 'size': 30}], 'number_of_epochs': 20}
+Mean sqr error: 109633.07406196324
+Mean abs error: 268.855880651587
+[0.005913464414509234, 0.058700839479302255]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 20
+{'number_of_epochs': 20, 'learning_rate': 0.02, 'layers': [{'activation': 'relu', 'size': 30}], 'model_name': 'NeuralNet'}
+Mean sqr error: 109287.94677345618
+Mean abs error: 268.63459073410684
+[0.005017413991650288, 0.056447305182615926]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 20
+{'layers': [{'activation': 'relu', 'size': 30}], 'number_of_epochs': 20, 'model_name': 'NeuralNet', 'learning_rate': 0.02}
+Mean sqr error: 109700.86816362824
+Mean abs error: 269.05860594068645
+[0.005013860526394601, 0.054687238193297585]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 20
+{'layers': [{'size': 30, 'activation': 'relu'}], 'number_of_epochs': 20, 'learning_rate': 0.02, 'model_name': 'NeuralNet'}
+Mean sqr error: 108705.39556931479
+Mean abs error: 267.9487299808111
+[0.00478432278342274, 0.05346508167464605]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 20
+{'learning_rate': 0.02, 'model_name': 'NeuralNet', 'layers': [{'size': 30, 'activation': 'relu'}], 'number_of_epochs': 20}
+Mean sqr error: 109434.98473922575
+Mean abs error: 268.69686582083136
+[0.005745539744878794, 0.05853579598572828]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 30
+{'learning_rate': 0.02, 'model_name': 'NeuralNet', 'number_of_epochs': 30, 'layers': [{'activation': 'relu', 'size': 30}]}
+Mean sqr error: 111123.46823203536
+Mean abs error: 270.9199607909679
+[0.005309606260521702, 0.0565441399540088]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 30
+{'learning_rate': 0.02, 'layers': [{'activation': 'relu', 'size': 30}], 'model_name': 'NeuralNet', 'number_of_epochs': 30}
+Mean sqr error: 111104.21627461395
+Mean abs error: 270.62981579016986
+[0.004877357416427158, 0.05497095946378487]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 30
+{'learning_rate': 0.02, 'model_name': 'NeuralNet', 'layers': [{'activation': 'relu', 'size': 30}], 'number_of_epochs': 30}
+Mean sqr error: 110648.9224959847
+Mean abs error: 270.2148240764144
+[0.00494651758538168, 0.054800039377323424]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 25
+{'layers': [{'activation': 'relu', 'size': 30}], 'model_name': 'NeuralNet', 'number_of_epochs': 25, 'learning_rate': 0.02}
+Mean sqr error: 110764.13823727748
+Mean abs error: 270.33518993759964
+[0.004565297543708449, 0.05046120299710786]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 25
+{'learning_rate': 0.02, 'layers': [{'activation': 'relu', 'size': 30}], 'model_name': 'NeuralNet', 'number_of_epochs': 25}
+Mean sqr error: 110230.32533035878
+Mean abs error: 269.7244806238776
+[0.004587054541417613, 0.05357023532677067]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 25
+{'number_of_epochs': 25, 'model_name': 'NeuralNet', 'learning_rate': 0.02, 'layers': [{'activation': 'relu', 'size': 30}]}
+Mean sqr error: 111754.55204465654
+Mean abs error: 271.58867048080543
+[0.003953958599488013, 0.04834122159360916]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 20
+{'learning_rate': 0.02, 'number_of_epochs': 20, 'model_name': 'NeuralNet', 'layers': [{'activation': 'relu', 'size': 30}]}
+Mean sqr error: 108041.09853783266
+Mean abs error: 267.07775417605126
+[0.005182529566876966, 0.053769566051257676]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 15
+layers: [{'size': 30, 'activation': 'relu'}]
+Mean sqr error: 107999.14046448327
+Mean abs error: 266.6313613524149
+[0.008914943551010548, 0.0752703275384829]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 15
+layers: [{'activation': 'relu', 'size': 30}]
+Mean sqr error: 107975.66955129163
+Mean abs error: 267.09320960921826
+[0.005243583430084383, 0.054608874916106234]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 15
+layers: [{'size': 30, 'activation': 'relu'}]
+Mean sqr error: 107821.1099877575
+Mean abs error: 266.55097341835125
+[0.009989313231865617, 0.08070106015787566]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 15
+layers: [{'size': 30, 'activation': 'relu'}]
+Mean sqr error: 107914.31363012934
+Mean abs error: 266.62531300179484
+[0.008235148453770927, 0.07044737296742064]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 15
+layers: [{'activation': 'relu', 'size': 30}]
+Mean sqr error: 109498.58105025836
+Mean abs error: 268.8386229358322
+[0.004760592335803883, 0.0549128335631171]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 10
+layers: [{'size': 30, 'activation': 'relu'}]
+Mean sqr error: 103227.95120693876
+Mean abs error: 261.56778287943985
+[0.007250273243903342, 0.06882369118282038]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 10
+layers: [{'size': 30, 'activation': 'relu'}]
+Mean sqr error: 106392.89234190813
+Mean abs error: 265.12928693888995
+[0.0068495337940812275, 0.06613285496761634]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 10
+layers: [{'activation': 'relu', 'size': 30}]
+Mean sqr error: 105999.81833005378
+Mean abs error: 264.5329145166165
+[0.008977751037563727, 0.07728301635361456]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 5
+layers: [{'size': 30, 'activation': 'relu'}]
+Mean sqr error: 107018.07878545849
+Mean abs error: 265.5968713289621
+[0.011852735657656741, 0.08993135954243267]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 5
+layers: [{'size': 30, 'activation': 'relu'}]
+Mean sqr error: 107092.33830382115
+Mean abs error: 265.51176627838055
+[0.011508924924722325, 0.08823160330546918]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 5
+layers: [{'activation': 'relu', 'size': 30}]
+Mean sqr error: 107882.40314031749
+Mean abs error: 266.6375656228202
+[0.009248819436439557, 0.07904883561670317]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 5
+layers: [{'activation': 'relu', 'size': 30}]
+Mean sqr error: 103554.24812282773
+Mean abs error: 261.32138775947124
+[0.014806680683107396, 0.10290603258073791]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 5
+layers: [{'activation': 'relu', 'size': 30}]
+Mean sqr error: 105735.56992764531
+Mean abs error: 264.40165504677265
+[0.007955820764038259, 0.07256299461274184]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 10
+layers: [{'size': 30, 'activation': 'relu'}]
+Mean sqr error: 106398.27063079167
+Mean abs error: 264.99474792449917
+[0.008038070161363963, 0.07023493125226146]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 10
+layers: [{'size': 30, 'activation': 'relu'}]
+Mean sqr error: 109834.95475558471
+Mean abs error: 268.801883723707
+[0.008313200684753448, 0.0723478516441907]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 10
+layers: [{'activation': 'relu', 'size': 30}]
+Mean sqr error: 108764.4129598901
+Mean abs error: 267.40702051341583
+[0.010255786217594369, 0.08141312908479409]
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 10
+layers: [{'size': 30, 'activation': 'relu'}]
+Mean sqr error: 106718.27793951
+Mean abs error: 265.5977188437169
+[0.006577569280584045, 0.06295891124518342]
+
+>>> a = [265.5, 267.4, 268.8, 264.9, 264.5, 265.1, 261.5]
+>>> sum(a) / len(a)
+265.38571428571424
+>>> b = [265.5, 265.5, 266.6, 261.3, 264.4]
+>>> sum(b) / len(b)
+264.66
+
+NeuralNet
+learning_rate: 0.02
+number_of_epochs: 20
+layers: [{'size': 30, 'activation': 'relu'}]
+Mean sqr error: 4583.834034968727
+Mean abs error: 53.12766329447428
+[0.004583834034968729, 0.05312766329447429]
+
+NeuralNet
+learning_rate: 0.05
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 30}]
+Mean sqr error: 4021.8367593435564
+Mean abs error: 50.70393366037413
+[0.0040218367593435585, 0.050703933660374144]
+
+NeuralNet
+learning_rate: 0.1
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 30}]
+Mean sqr error: 3889.149153579556
+Mean abs error: 47.97824124217958
+[0.0038891491535795572, 0.04797824124217958]
+
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 30}]
+Mean sqr error: 3817.212262072575
+Mean abs error: 47.428129250227016
+[0.0038172122620725763, 0.04742812925022702]
+
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 50}]
+Mean sqr error: 2858.6002709441277
+Mean abs error: 41.91924155636351
+[0.0028586002709441293, 0.04191924155636353]
+
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 50}]
+Mean sqr error: 4266.2038428308115
+Mean abs error: 52.15497137918029
+[0.0042662038428308135, 0.0521549713791803]
+
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 50}]
+Mean sqr error: 2965.0741576843275
+Mean abs error: 40.23169210068015
+[0.0029650741576843294, 0.04023169210068016]
+
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'size': 50, 'activation': 'relu'}]
+Mean sqr error: 3948.8692111092546
+Mean abs error: 48.39662815480269
+[0.003948869211109257, 0.04839662815480271]
+
+NeuralNet/c-val-3
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 50}]
+Mean sqr error: 4850.517322827246
+Mean abs error: 51.81890714558934
+[0.004850517322827247, 0.05181890714558935]
+
+NeuralNet/c-val-10
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 50}]
+Mean sqr error: 6806.496817876492
+Mean abs error: 49.83449992138837
+[0.006806496817876493, 0.04983449992138838]
+
+{'train_type': 'validation', 'validation_type': 'k_fold', 'number_of_splits': 10, 'split_seed': 0}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'size': 30, 'activation': 'relu'}]
+Mean sqr error: 3194.5170936975464
+Mean abs error: 43.34335111144706
+[0.003194517093697548, 0.043343351111447076]
+
+{'train_type': 'validation', 'validation_type': 'k_fold', 'number_of_splits': 10, 'split_seed': 0}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 20}]
+Mean sqr error: 3856.2998425946125
+Mean abs error: 47.905158781805895
+[0.003856299842594614, 0.047905158781805915]
+
+{'number_of_splits': 20, 'split_seed': 0, 'validation_type': 'k_fold', 'train_type': 'validation'}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 30}]
+Mean sqr error: 3056.3143004474723
+Mean abs error: 42.438170235500294
+[0.0030563143004474734, 0.0424381702355003]
+
+{'validation_type': 'k_fold', 'split_seed': 0, 'train_type': 'validation', 'number_of_splits': 20}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 30}]
+Mean sqr error: 2988.9043588832124
+Mean abs error: 42.255736723007324
+[0.0029889043588832136, 0.04225573672300733]
+
+{'validation_type': 'k_fold', 'train_type': 'validation', 'number_of_splits': 20, 'split_seed': 0}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'size': 20, 'activation': 'relu'}]
+Mean sqr error: 3345.0253451678705
+Mean abs error: 43.87985531324564
+[0.0033450253451678715, 0.043879855313245654]
+
+{'train_type': 'validation', 'split_seed': 0, 'number_of_splits': 20, 'validation_type': 'k_fold'}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 20}]
+Mean sqr error: 3339.3619445498807
+Mean abs error: 44.62614524375071
+[0.0033393619445498818, 0.04462614524375073]
+
+{'validation_type': 'k_fold', 'split_seed': 0, 'number_of_splits': 20, 'train_type': 'validation'}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'size': 50, 'activation': 'relu'}]
+Mean sqr error: 2890.208082659108
+Mean abs error: 40.990806246220494
+[0.0028902080826591096, 0.0409908062462205]
+
+{'number_of_splits': 20, 'validation_type': 'k_fold', 'split_seed': 0, 'train_type': 'validation'}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'size': 70, 'activation': 'relu'}]
+Mean sqr error: 2832.8574134640858
+Mean abs error: 40.808012747064986
+[0.0028328574134640874, 0.04080801274706499]
+
+{'split_seed': 0, 'number_of_splits': 20, 'validation_type': 'k_fold', 'train_type': 'validation'}
+NeuralNet
+learning_rate: 0.3
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 50}]
+Mean sqr error: nan
+Mean abs error: nan
+[nan, nan]
+
+{'number_of_splits': 20, 'split_seed': 0, 'validation_type': 'k_fold', 'train_type': 'validation'}
+NeuralNet
+learning_rate: 0.1
+number_of_epochs: 20
+layers: [{'size': 50, 'activation': 'relu'}]
+Mean sqr error: 3563.7124053667453
+Mean abs error: 45.3851165631972
+[0.0035637124053667464, 0.045385116563197214]
+
+{'train_type': 'validation', 'number_of_splits': 20, 'validation_type': 'k_fold', 'split_seed': 0}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 30
+layers: [{'activation': 'relu', 'size': 50}]
+Mean sqr error: 2483.5231955112026
+Mean abs error: 38.218494933818334
+[0.0024835231955112036, 0.03821849493381835]
+
+{'split_seed': 0, 'train_type': 'validation', 'number_of_splits': 20, 'validation_type': 'k_fold'}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 30
+layers: [{'size': 50, 'activation': 'relu'}]
+Mean sqr error: 2448.9992740377315
+Mean abs error: 37.954728761237064
+[0.002448999274037733, 0.03795472876123708]
+
+{'train_type': 'validation', 'validation_type': 'k_fold', 'split_seed': 0, 'number_of_splits': 20}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 50
+layers: [{'size': 50, 'activation': 'relu'}]
+Mean sqr error: 2210.508397968444
+Mean abs error: 35.591769024211146
+[0.0022105083979684454, 0.03559176902421115]
+
+{'train_type': 'validation', 'number_of_splits': 20, 'validation_type': 'k_fold', 'split_seed': 0}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 100
+layers: [{'size': 50, 'activation': 'relu'}]
+Mean sqr error: 1597.1545729316717
+Mean abs error: 30.763257718598304
+[0.001597154572931672, 0.030763257718598308]
+
+{'train_type': 'validation', 'number_of_splits': 20, 'validation_type': 'k_fold', 'split_seed': 0}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 200
+layers: [{'size': 50, 'activation': 'relu'}]
+Mean sqr error: 1356.3569935489895
+Mean abs error: 27.88419686171245
+[0.0013563569935489898, 0.02788419686171246]
+
+{'split_seed': 0, 'number_of_splits': 20, 'train_type': 'validation', 'validation_type': 'k_fold'}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 200
+layers: [{'size': 50, 'activation': 'relu'}]
+Mean sqr error: 1455.0794673065607
+Mean abs error: 29.107380555153053
+[0.001455079467306561, 0.02910738055515306]
+
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 50}]
+Mean sqr error: 1360.7226300247264
+Mean abs error: 27.9115747123867
+[0.0013607226300247266, 0.027911574712386707]
+
+{'validation_type': 'k_fold', 'number_of_splits': 20, 'train_type': 'validation', 'split_seed': 0}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 20
+layers: [{'activation': 'relu', 'size': 50}, {'activation': 'relu', 'size': 20}]
+Mean sqr error: 2887.378534449038
+Mean abs error: 40.703449753368766
+[0.002887378534449039, 0.04070344975336878]
+
+{'train_type': 'validation', 'validation_type': 'k_fold', 'split_seed': 0, 'number_of_splits': 20}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 100
+layers: [{'size': 50, 'activation': 'relu'}, {'size': 20, 'activation': 'relu'}]
+Mean sqr error: 1405.9284787135214
+Mean abs error: 27.860292670836856
+[0.0014059284787135216, 0.027860292670836857]
+
+{'split_seed': 0, 'validation_type': 'k_fold', 'number_of_splits': 20, 'train_type': 'validation'}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 200
+layers: [{'size': 50, 'activation': 'relu'}, {'size': 20, 'activation': 'relu'}]
+Mean sqr error: 1211.172538012961
+Mean abs error: 25.789123131130527
+[0.0012111725380129612, 0.02578912313113053]
+
+{'validation_type': 'k_fold', 'number_of_splits': 20, 'train_type': 'validation', 'split_seed': 0}
+NeuralNet
+learning_rate: 0.2
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 50}, {'activation': 'tanh', 'size': 20}]
+Mean sqr error: 1437.5754549522605
+Mean abs error: 28.420697005912153
+[0.0014375754549522612, 0.028420697005912154]
+
+
+DATA_FILE = './data/test_1.json'
+Depth: 66.07205420732498
+Velocity: 478.193461894989
+
+[./data/test_1.json]
+[2.6304, 4.5274, 4.1914]
+
+[./data.csv]
+0.0,2.630496,15.368421,4.527475,30.736842,4.191496,66.0,482.0
+
+
+DATA_FILE = './data/test_2.json'
+Depth: 125.80814957618713
+Velocity: 1055.3863048553467
+
+[./data/test_2.json]
+[1.06, 40.51, 66.83]
+
+[./data.csv]
+0.0,1.069801,15.861111,40.517509,31.722222,66.831463,126.0,1056.0
+
+./data/test_1.json
+[2.6304, 4.5274, 4.1914]
+Depth: 66.07205420732498
+Velocity: 478.193461894989
+
+./data/test_2.json
+[3.6, 8.11, 10.68]
+Depth: 66.00017845630646
+Velocity: 664.8253202438354
+
+./data/test_3.json
+[4.93, 13.24, 15.1]
+Depth: 66.40703976154327
+Velocity: 750.935971736908
+
+./data/test_4.json
+[2.02, 36.6, 64.68]
+Depth: 174.90562796592712
+Velocity: 935.6683492660522
+
+./data/test_5.json
+[1.88, 2.98, 2.32]
+Depth: 66.07700139284134
+Velocity: 272.1292972564697
+
+./data/test_6.json
+[2.46, 3.31, 2.7]
+Depth: 66.80173426866531
+Velocity: 338.37711811065674
+
+./data/test_7.json
+[2.69, 3.26, 4.97]
+Depth: 66.03395938873291
+Velocity: 421.51939868927
+
+./data/test_8.json
+[0.09, 2.9, 4.18]
+Depth: 96.23387455940247
+Velocity: 457.1765065193176
+
+./data/test_9.json
+[0.25, 3.74, 6.77]
+Depth: 95.7602709531784
+Velocity: 614.4212484359741
+
+./data/test_10.json
+[1.64, 20.09, 18.38]
+Depth: 95.99977731704712
+Velocity: 843.9001441001892
+
+./data/test_11.json
+[2.24, 6.14, 6.46]
+Depth: 126.30870938301086
+Velocity: 675.4298806190491
+
+./data/test_12.json
+[4.4, 13.99, 12.6]
+Depth: 126.20829045772552
+Velocity: 838.7587666511536
+
+./data/test_13.json
+[4.79, 21.4, 38.2]
+Depth: 126.81306898593903
+Velocity: 935.4060888290405
+
+./data/test_14.json
+[1.06, 40.51, 66.83]
+Depth: 125.80814957618713
+Velocity: 1055.3863048553467
+
+./data/test_15.json
+[1.43, 1.68, 4.46]
+Depth: 103.1341403722763
+Velocity: 314.14616107940674
+
+./data/test_16.json
+[2.09, 3.15, 2.1]
+Depth: 133.55225324630737
+Velocity: 286.7167294025421
+
+./data/test_17.json
+[2.45, 7.34, 11.87]
+Depth: 133.61188769340515
+Velocity: 562.7180337905884
+
+===================================================================================================
+
+DATASET_SETTINGS = {'data_columns':[1, 3, 5], 'target':'Depth', 'file_name':'./data.csv',
+                    'multiply_number':100, 'multiply_range':(-0.05, 0.05)}
+
+MODEL_SETTINGS = {
+  'model_name':'NeuralNet',
+  'learning_rate':0.20,
+  'layers':[{'size':50, 'activation':'relu'}, {'size':20, 'activation':'relu'}],
+  'number_of_epochs':20
+}
+
+TRAIN_SETTINGS = {'train_type':'validation', 'validation_type':'k_fold', 'number_of_splits':20,
+                  'split_seed':0}
+
+POSTPROCESS_SETTINGS = {
+                  'strict_function':lambda x: x * 1000,
+                  'invert_function':lambda x: x / 1000,
+                  'min':None,
+                  'max':None}
+
+[0.0005875907722717564, 0.0003729091605904174, 0.0002982918878191655, 0.0002435292644117789, 0.0002114601761778156, 0.00018528707127813256, 0.0001729617445253023, 0.00016002880342492787, 0.00015142848988099227, 0.00014718303628887826, 0.0001419078192182163, 0.00013348970682994544, 0.00013420286830338694, 0.0001242654732632417, 0.0001240150466744142, 0.0001215982248004677, 0.00012182617625134419, 0.00011539411959605032, 0.00011758190301185549, 0.00011682682896685319]
+
+===================================================================================================
+
+DATASET_SETTINGS = {'multiply_range': (-0.05, 0.05), 'target': 'Depth', 'multiply_number': 100, 'file_name': './data.csv', 'data_columns': [1, 3, 5]}
+MODEL_SETTINGS = {'model_name': 'NeuralNet', 'number_of_epochs': 500, 'layers': [{'size': 50, 'activation': 'relu'}, {'size': 20, 'activation': 'relu'}], 'learning_rate': 0.2}
+TRAIN_SETTINGS = {'number_of_splits': 20, 'split_seed': 0, 'validation_type': 'k_fold', 'train_type': 'validation'}
+POSTPROCESS_SETTINGS = {'max': None, 'min': None, 'strict_function': <function <lambda> at 0x7f27577e5bf8>, 'invert_function': <function <lambda> at 0x7f27156bc400>}
+
+[0.0006516318617305156, 0.00039412901784930684, 0.00030072978113769333, 0.0002454367664419834, 0.00021196129912040793, 0.00019022668137791936, 0.00017691983627400677, 0.00016975581950301664, 0.00016005260826921553, 0.00015230450683537182, 0.00014335266702018574, 0.00014246596841010155, 0.00013450610539020327, 0.00013679323581557428, 0.00013378999034145195, 0.0001261235898893497, 0.00012439008213965114, 0.0001319147994702412, 0.0001268178709771433, 0.00012166210465560309, 0.00012027315649364961, 0.00011284268348977721, 0.0001102509297949666, 0.00011325269494289005, 0.00011250618081027368, 0.00010509331868799112, 0.00010518716352417504, 0.00010880230192379547, 0.00010448508085094841, 0.00010245389839131332, 0.00010171275379010254, 9.738832799482463e-05, 0.00010025051145087221, 9.828954019161676e-05, 9.653473681127253e-05, 9.503463109906898e-05, 9.573467319554388e-05, 9.262097606728505e-05, 9.307375199501737e-05, 9.338126349698932e-05, 9.334934203365707e-05, 8.810365468258559e-05, 9.126744317000372e-05, 8.957421192817381e-05, 8.751292718087603e-05, 8.881194967307111e-05, 8.674888494071575e-05, 8.925977324928004e-05, 8.354936413935719e-05, 8.550376137094379e-05, 8.463094269449676e-05, 8.272328743080843e-05, 8.52828360397855e-05, 8.157403409028785e-05, 8.126265046237466e-05, 8.17765067997228e-05, 7.965234932781527e-05, 7.996188199359234e-05, 7.781027806995502e-05, 7.757003959433162e-05, 8.089376538517298e-05, 8.007308900724052e-05, 7.792597317416255e-05, 7.877118901340586e-05, 7.79183720992907e-05, 7.531337041497196e-05, 7.41592653295398e-05, 7.92383585540485e-05, 7.493282202860163e-05, 7.412323164095595e-05, 7.565417382688675e-05, 7.461121514305392e-05, 7.258025154443539e-05, 7.250584081242637e-05, 7.904529263108122e-05, 7.510373534323874e-05, 7.144366994258153e-05, 7.144793618460218e-05, 7.108301380445711e-05, 6.869185916533874e-05, 7.061299564791328e-05, 6.861162159507348e-05, 6.895591737727372e-05, 6.668013085967058e-05, 6.840483682230434e-05, 6.959641737390364e-05, 6.773232796089666e-05, 6.797706893546618e-05, 7.117537818272088e-05, 6.726761252782976e-05, 6.540612921158534e-05, 7.576311688657176e-05, 6.536866406138362e-05, 6.504769568654772e-05, 6.609789329350113e-05, 6.979960975018494e-05, 6.488527328979836e-05, 6.39165568982058e-05, 6.527050974348674e-05, 6.395585592365768e-05, 6.122655911761232e-05, 6.362981483152225e-05, 6.227804215034875e-05, 6.367979782952009e-05, 6.090761119869043e-05, 6.572262097481727e-05, 6.24892333003497e-05, 6.271459723445125e-05, 5.949157570315506e-05, 5.99501146259126e-05, 6.413800979784686e-05, 5.9224241290767525e-05, 5.799385479355038e-05, 5.824511412097726e-05, 5.838880116279753e-05, 5.707344827898275e-05, 6.241103023386268e-05, 6.259069115322022e-05, 5.850839272653924e-05, 5.77172914283746e-05, 5.654345916804712e-05, 5.651224384114787e-05, 5.631311684358886e-05, 5.5615065299616675e-05, 5.442093091003029e-05, 5.285602863420353e-05, 5.564713670354564e-05, 5.418830764025095e-05, 5.4266628962138026e-05, 5.35210663421197e-05, 5.173014161580611e-05, 5.9396479409558586e-05, 5.1994967868137826e-05, 5.169270975291762e-05, 5.324866751522966e-05, 4.9729910813290245e-05, 5.3159103486350325e-05, 5.0819404294339925e-05, 5.058787572564051e-05, 5.192344219178439e-05, 5.1891615855653877e-05, 5.139545514917805e-05, 4.7748977025394526e-05, 4.896734054286424e-05, 5.00655230494399e-05, 4.994443495241872e-05, 4.712441583189761e-05, 4.807494071610315e-05, 4.975153839850974e-05, 4.858650628423124e-05, 4.832039080389054e-05, 4.9421140077296815e-05, 4.7023998366240536e-05, 4.7802712453771686e-05, 4.722819249869898e-05, 4.8576401261934355e-05, 4.497305392656721e-05, 4.654894967203047e-05, 4.4075246033240656e-05, 4.449615102308231e-05, 4.539106333370358e-05, 4.436411862342514e-05, 4.321865654008547e-05, 4.5288839941811176e-05, 4.473261905704669e-05, 4.3456051633806645e-05, 4.3050251043028436e-05, 4.252437870657219e-05, 4.491438819793178e-05, 4.232464943456719e-05, 4.1700201867602635e-05, 4.26553088597742e-05, 4.185221437156789e-05, 4.110383070916381e-05, 4.0712643084963725e-05, 4.2227487446681374e-05, 4.366301037827449e-05, 4.063285501954649e-05, 3.9787472282109346e-05, 4.2005061429992835e-05, 4.0460020708116654e-05, 4.07548085989701e-05, 4.180020638655282e-05, 5.215614065000086e-05, 4.250502037670574e-05, 3.921458811018828e-05, 3.900838591652098e-05, 3.87139547445939e-05, 4.0200870052705264e-05, 3.850974499368216e-05, 3.8454354714313865e-05, 4.062623381370938e-05, 3.833082990220127e-05, 3.692309373720227e-05, 3.786848439195822e-05, 3.798795012701462e-05, 3.819853627571534e-05, 3.73656872485764e-05, 3.625581433598647e-05, 4.007999397223667e-05, 3.635771983905743e-05, 3.875288115774614e-05, 3.5533100888557776e-05, 3.5453053631744744e-05, 3.786395964404697e-05, 3.59912247917443e-05, 3.464130874188229e-05, 3.6446702270106315e-05, 3.4114167585949396e-05, 4.097937375321593e-05, 3.4712685796484124e-05, 3.4157992606654645e-05, 3.4651847956321496e-05, 3.421414554997468e-05, 3.638057029563022e-05, 3.451034858159158e-05, 3.380699535437237e-05, 3.3076169932281645e-05, 3.3181221140503756e-05, 3.2767779381428305e-05, 3.614186302454935e-05, 3.5737440956573366e-05, 3.241925453161826e-05, 3.318935869686913e-05, 3.167756020213605e-05, 3.123734138925413e-05, 3.218786515467854e-05, 3.176172711282524e-05, 3.153456357845635e-05, 3.165245379151735e-05, 3.237068822451243e-05, 3.150653228362059e-05, 2.994008083221761e-05, 3.076975690567261e-05, 3.1860989663188975e-05, 2.977732356428113e-05, 2.9499014373598723e-05, 2.9679040217328916e-05, 3.015149613853785e-05, 2.886078442468021e-05, 2.9481902823667156e-05, 3.321662220475051e-05, 2.8580472915047354e-05, 2.867300974906502e-05, 2.997659186446113e-05, 2.7334369241594765e-05, 3.0207257757591252e-05, 2.8482401741429805e-05, 2.7439654982120755e-05, 3.229101607016692e-05, 2.718815671980733e-05, 3.0051583913274836e-05, 2.8271524890741597e-05, 2.9096158334216652e-05, 2.8357368920534983e-05, 2.97267700156812e-05, 2.782289188441315e-05, 2.7256953700955642e-05, 2.7035133087017187e-05, 2.955355485071046e-05, 2.6351333204507503e-05, 2.5353194627253254e-05, 2.6761116716282086e-05, 2.539335448151494e-05, 2.746412883194569e-05, 2.611642868608559e-05, 2.5461026712061866e-05, 2.555930248847536e-05, 2.8442542259855704e-05, 2.751961254143717e-05, 2.4432663035857584e-05, 2.489196111971676e-05, 2.461084478568565e-05, 2.3888125338674355e-05, 2.5171279211215522e-05, 2.4442563182959575e-05, 2.5105511869328825e-05, 2.377642913746552e-05, 2.4428712949014987e-05, 2.3681061311342456e-05, 2.3458424072557707e-05, 7.81381533524942e-05, 2.403489770357402e-05, 2.6376529905172296e-05, 2.444807178048611e-05, 2.281556244364113e-05, 2.3404967222390594e-05, 2.3075950919382043e-05, 2.3150458791151548e-05, 2.342798564293635e-05, 3.794636924543434e-05, 2.2264337991494702e-05, 2.176916752259804e-05, 3.792223793784932e-05, 2.3128618841547518e-05, 2.1017104246111335e-05, 2.1700378903881814e-05, 2.1001890116487243e-05, 2.1607221002943425e-05, 2.4327551144483336e-05, 9.150828280412255e-05, 2.1636148880116562e-05, 2.1635849694202936e-05, 2.247162934380955e-05, 2.307478562457685e-05, 2.10976975798918e-05, 2.2453210361889326e-05, 2.1731313781081937e-05, 2.0167548567133303e-05, 2.0659190054560966e-05, 2.1199028683831062e-05, 3.859617247292556e-05, 2.6317461979113332e-05, 2.0342688743992407e-05, 2.2502172002803692e-05, 2.116184249464831e-05, 2.17815692182768e-05, 2.335055365942929e-05, 1.942055206410899e-05, 1.8839786606625248e-05, 1.9676431589539687e-05, 1.877205711575692e-05, 3.0987228656133666e-05, 1.9861398148430673e-05, 1.8933488321341855e-05, 1.798672489771559e-05, 2.0722449754925145e-05, 1.9024848643450414e-05, 1.9965348549563187e-05, 1.8598366890542975e-05, 1.8468081520147864e-05, 1.7939506668692728e-05, 1.8811166448483604e-05, 1.7918176199964487e-05, 1.8232206611333627e-05, 1.741254654320429e-05, 1.768410138645922e-05, 1.6646227882326842e-05, 1.7060172319560987e-05, 1.7569820670957268e-05, 1.7540949884007623e-05, 1.8241749353725678e-05, 1.7678564031843972e-05, 1.744259681968928e-05, 1.715965876248587e-05, 1.7974244864628273e-05, 1.9837102125286672e-05, 1.8245250080528692e-05, 1.86187859592247e-05, 1.9814386090979466e-05, 1.6265673413951773e-05, 1.6836530836435904e-05, 2.1705827131221618e-05, 1.664664670626922e-05, 1.630374121409734e-05, 1.633660174508566e-05, 1.6108995117458053e-05, 1.812654984682667e-05, 2.4975156216663744e-05, 1.5935333273152255e-05, 1.5997484183514394e-05, 1.7839325957844124e-05, 1.5363007540719997e-05, 1.8469910331792477e-05, 1.6339603375338158e-05, 1.5665120550312527e-05, 1.5900372461350973e-05, 1.4913611609022273e-05, 1.978068999510277e-05, 1.6892383260539872e-05, 1.8044100829393058e-05, 1.44898076377879e-05, 1.466218538829118e-05, 1.4569445867416495e-05, 1.524357931337751e-05, 1.7378264621704468e-05, 5.456148250883545e-05, 1.5812473093160933e-05, 1.4522780254004354e-05, 1.4243093068188392e-05, 1.597394478379676e-05, 1.6405971291360576e-05, 4.707762826052749e-05, 1.4055263807363741e-05, 1.5231288053323082e-05, 1.4553681172064237e-05, 1.4598886161660516e-05, 1.374763958745209e-05, 2.2547480613047372e-05, 2.5467412716817873e-05, 1.5086420296017425e-05, 1.3899040928178537e-05, 2.7394171800162278e-05, 1.6650947133350432e-05, 1.7976494091674688e-05, 1.2921574794924704e-05, 1.5736826098437818e-05, 1.3408583488027319e-05, 1.3324374627761272e-05, 1.3591600525961116e-05, 1.278879410981427e-05, 1.3107099788811446e-05, 1.3757464452767796e-05, 1.3337433356375395e-05, 1.3945424754372902e-05, 1.2385064500680934e-05, 1.3221313583069604e-05, 1.2381394387391792e-05, 1.3781663368893427e-05, 1.3722563076056464e-05, 1.2353468923703248e-05, 1.323000933150795e-05, 1.3261045829743982e-05, 1.2900292793323082e-05, 1.2319675732543905e-05, 1.4644552786372172e-05, 1.2063077641453757e-05, 1.2599658340802149e-05, 1.2289193243517041e-05, 1.5205592739767526e-05, 1.396302787464012e-05, 1.2612254106279989e-05, 1.1723027811243657e-05, 1.2167352668289897e-05, 1.1905055065768643e-05, 1.217365931070542e-05, 1.1929500329498583e-05, 1.1885808525403013e-05, 1.4342489901690537e-05, 1.2588290126805459e-05, 1.3452548419766022e-05, 2.3928508102448176e-05, 1.1795593004379953e-05, 1.1997994712985041e-05, 1.6565630906356023e-05, 1.2240713527787456e-05, 1.2069871046782824e-05, 1.1332302937443933e-05, 1.2057590150831877e-05, 1.2508151812859592e-05, 1.137398777187514e-05, 1.174446960486681e-05, 1.1928620103670694e-05, 1.066077555667602e-05, 1.659074573102234e-05, 1.0613913877377429e-05, 1.203069105783813e-05, 1.089687114379635e-05, 1.0388299535135444e-05, 1.1704832750189633e-05, 1.1520956544143228e-05, 1.9222193483235354e-05, 1.0632418270095187e-05, 1.139991657234212e-05, 1.2270575997597906e-05, 1.0239335972464589e-05, 1.059341756115046e-05, 1.0746686966188423e-05, 1.0692248518640246e-05, 1.2131514250660992e-05, 1.4336549281511801e-05, 1.2227304269689678e-05, 1.0074752406020453e-05, 1.0519845835557464e-05, 1.0385955177737186e-05, 1.1442354810719084e-05, 9.947673735609431e-06, 1.0221458583874002e-05, 1.1883196884859645e-05, 1.4692075089593073e-05, 1.947143195404644e-05, 1.0332073095994129e-05, 9.811313242128545e-06, 1.12858573180131e-05, 1.0209127891544577e-05, 1.0379945379210232e-05, 1.2034565683102821e-05, 1.0387788259202032e-05, 1.4520946758402926e-05, 1.0214700183566757e-05, 1.2848344642913095e-05, 1.640304579067935e-05, 9.820290811298959e-06, 1.4251575441839932e-05, 9.561376408090578e-06, 1.3691946785248419e-05, 9.33670621901862e-06, 9.592084729869663e-06, 9.894132914454378e-06, 1.2075744496272352e-05, 9.333045265800707e-06, 1.1314966955451978e-05, 9.25673637633084e-06, 9.224316936785981e-06, 9.115182850798047e-06, 9.876389011975818e-06, 1.0058179502434871e-05, 9.369412497993999e-06, 9.748258151384632e-06, 1.592500454381683e-05]
+
+==========================
+DATASET_SETTINGS = {'target': 'Velocity', 'multiply_range': (-1, 1), 'data_columns': [1, 3, 5], 'multiply_number': 100, 'file_name': './data.csv'}
+MODEL_SETTINGS = {'model_name': 'NeuralNet', 'layers': [{'size': 50, 'activation': 'relu'}, {'size': 20, 'activation': 'relu'}], 'learning_rate': 0.15, 'number_of_epochs': 2000}
+TRAIN_SETTINGS = {'number_of_splits': 20, 'train_type': 'validation', 'validation_type': 'k_fold', 'split_seed': 0}
+POSTPROCESS_SETTINGS = {'max': None, 'invert_function': <function <lambda> at 0x7f25744c3400>, 'strict_function': <function <lambda> at 0x7f25b65adbf8>, 'min': None}
+[0.008355733329823901, 0.005760294426002932, 0.005081756868012372, 0.0044710693812659, 0.004113220602166285, 0.003925742172134757, 0.003688172784166681, 0.0036445291743090794, 0.0035003947279057374, 0.0032908052321594765, 0.0033136485860808516, 0.003223781840685913, 0.003084089623524639, 0.003049396393226941, 0.00320207452293544, 0.003000485596929266, 0.0028927710759896206, 0.0028477019635962373, 0.0027564104456293988, 0.002620961719720335, 0.0027122261125262174, 0.0025289050641051775, 0.002462543894370531, 0.002431223687733983, 0.0024110939057323142, 0.0024194908357800587, 0.0023752753323175923, 0.0023003676292029747, 0.0022493992644064672, 0.002208923431906133, 0.002134230054900459, 0.002172467126528555, 0.0021286938463810066, 0.002032736150034902, 0.0020240379327746676, 0.001969395696372494, 0.0019778615146566108, 0.001960303777535465, 0.002080097721457079, 0.0018406940269481112, 0.001887244394685431, 0.0018773036764142524, 0.0018790403176435083, 0.00174497653773531, 0.0018237270820515151, 0.0017440477393211786, 0.0017780686684686017, 0.0018539171823171107, 0.001744292907157394, 0.0016661447559218352, 0.0017486222654814535, 0.0016956918038381328, 0.0016613698665047232, 0.001687716897123171, 0.0016760347736258859, 0.0016313858474080838, 0.0017796722796967596, 0.0016158825839019575, 0.0015139884851897128, 0.001580492665032632, 0.0015887393162645675, 0.0015699615615087834, 0.0015362001036377572, 0.0015698077361216954, 0.0014745473336312464, 0.0015784991469984955, 0.0017073538356840294, 0.0014831647674537808, 0.0014497672162449024, 0.0015336732170138465, 0.0014681271358317329, 0.0015448293761317088, 0.0014640188804208448, 0.0015476788519287643, 0.0014582421561193787, 0.0015362769462878177, 0.0014861890116086031, 0.0014659236081139785, 0.001430643559759992, 0.0014635533694048553, 0.0014117309864624449, 0.001427405262865201, 0.001598661095014628, 0.0014249947619847073, 0.0014202391408298168, 0.0014554630640536486, 0.0014448610585599832, 0.001411892464803277, 0.0013384235238834128, 0.001384265724024589, 0.0014037168224075576, 0.00144954553379683, 0.001323252633520881, 0.0013857312657064205, 0.001433790105542489, 0.001333066179473928, 0.0013526965236546414, 0.0013829707965264657, 0.001315098404271207, 0.0013800429287371347, 0.0013714401445183689, 0.0013835430911709663, 0.001412219955176134, 0.0013555627489983575, 0.0013522282521279908, 0.0013901413742332784, 0.0014004563721818606, 0.001345858239576255, 0.0013803149955007967, 0.001276502641556191, 0.0013464961587424324, 0.001326263444444035, 0.001329188754258291, 0.0013474855697852342, 0.0013782078190380197, 0.0012912680479368545, 0.001392884545238267, 0.001453244703848593, 0.0013377243770485829, 0.0014161584663020751, 0.0014178254909244226, 0.001299701431406555, 0.0013270904329110436, 0.001389029634136722, 0.0013462041107212767, 0.0013243291646553644, 0.0013585450780347359, 0.0013406801109680606, 0.0013479801019600805, 0.001331668065493944, 0.0013445636729226308, 0.001343617513891285, 0.0014232901612651202, 0.0013796567271091556, 0.0012579814303214387, 0.001387542570162712, 0.0012919941007652703, 0.0012553781897664737, 0.0013015123140436332, 0.001352129429583559, 0.0012700933693740458, 0.0013124654817610862, 0.0013085796987980596, 0.0013440703768093617, 0.0013480126828438743, 0.0013740562284535699, 0.0013157825354047476, 0.0012538984092334657, 0.0013146366947816262, 0.0013463699561679127, 0.0013309148382836644, 0.0013196719279554168, 0.001227833875941486, 0.0012919829909445427, 0.0013665902414338447, 0.0012788595859365534, 0.0012986425061625136, 0.0013351345188568871, 0.0012791924057956774, 0.0012551307316307964, 0.0012956889938948823, 0.001326564859578809, 0.001290947105737929, 0.001337521060663097, 0.0012699255286950028, 0.0012310702612990817, 0.0012498043187850608, 0.0012499921787902841, 0.0012824847711385237, 0.0013220017723673536, 0.0012355539272587094, 0.001292795923926451, 0.0013869671918690348, 0.0012615486119253365, 0.0013491159830931652, 0.001381353162121644, 0.0011895721357609763, 0.0013411362790564717, 0.001267793851030421, 0.0012567021855143267, 0.001302466540014984, 0.0013085974503923895, 0.001252785345172209, 0.0012819750133867434, 0.0013063199217002851, 0.001294491519038623, 0.0012727568898340128, 0.0012696439698129884, 0.0012721127810053179, 0.001256241093934501, 0.001294129670327835, 0.0012517273130550504, 0.0012844840582692996, 0.0012202739634173039, 0.0012156019122202826, 0.001265001029628023, 0.001253066429736637, 0.0013139157790938143, 0.0012561112119589784, 0.0012436646097710754, 0.0012619093240984996, 0.0012299135796265185, 0.0012476360914592023, 0.001283721213798974, 0.0012452864026343106, 0.0012762188012619337, 0.0012272961463859792, 0.0012740539272754388, 0.0012104271967452917, 0.0012385754102395743, 0.0013092823557682442, 0.00123850580147358, 0.0012950979333409781, 0.001329397773840745, 0.0012624628473870793, 0.0012483157009053874, 0.0012832691068893232, 0.0012239134830759365, 0.0012024593227663177, 0.0012795488726906352, 0.0013221969614249734, 0.0012563691533644583, 0.001296745066808265, 0.001229709311717772, 0.0012580999131164756, 0.001255516689500062, 0.0012198853909339636, 0.0012066862209744323, 0.0011864728603044475, 0.0011968790746973022, 0.0012144578990159257, 0.001271655545945002, 0.0012304745590130807, 0.0011720593938198372, 0.001294384751993323, 0.001227260524512615, 0.0012747665856818054, 0.0011808710172330472, 0.001168511092618061, 0.0012703946853945512, 0.0012132734197294456, 0.0011931694162039344, 0.001191058168655947, 0.0012181303419229138, 0.0012542180279769082, 0.0011762536653973962, 0.0011826144205995552, 0.0012128310885241192, 0.001233564578957834, 0.0012012149094015984, 0.0012065119541819667, 0.0012164151653331783, 0.001213695437126798, 0.0012258820330099682, 0.0012075201105257935, 0.0012663573209294586, 0.0012224246323751743, 0.0012074024101181614, 0.0012488268772057336, 0.0011798835715551945, 0.001178153524248225, 0.0012105581896649845, 0.0011995042267060557, 0.001282886076094608, 0.0013187559830604844, 0.0012577678784141994, 0.0012189769449288015, 0.0012571747176442806, 0.0012502027217731282, 0.001203190442861858, 0.0012161811830855907, 0.0012215297621666554, 0.0012130439484386198, 0.0011915891582257607, 0.001205144233491782, 0.0012514717618145861, 0.0012518052300787847, 0.0012457974315390834, 0.0012584649521107248, 0.00128952550954216, 0.0011841267762286367, 0.001199822759615046, 0.0011950145303304357, 0.0012222367427111177, 0.0011974153707836525, 0.001197067469730464, 0.0011871654050774737, 0.0011735530938804576, 0.0012286477325738649, 0.0011789867758077905, 0.0011782105905863028, 0.001220987043719326, 0.0011567283953546718, 0.0011959401521120358, 0.0011780889902367237, 0.0012104140035632907, 0.001166468492696997, 0.0012019433927904304, 0.0011721786540255642, 0.0011889953794805542, 0.001272965358704709, 0.0012617258770867836, 0.0011805512198207523, 0.001181133435826485, 0.0012040005062861085, 0.0012844514089982721, 0.0011776814755567835, 0.0012067803140229925, 0.0011890833892086498, 0.00119625652643292, 0.0011644080173179303, 0.0011713253993256892, 0.001183821510289612, 0.0012177178235898156, 0.0011824260243210206, 0.0011993868771281789, 0.0011783305507335779, 0.0011534761681865455, 0.001205229193839565, 0.0012133608577448414, 0.0011665448497828906, 0.001161198454176693, 0.0011535788911200325, 0.00123011059139294, 0.0011920936916130353, 0.0011787268832898772, 0.0012124691383834966, 0.0011565808067802964, 0.0011887707200486446, 0.0011405342162760974, 0.0011849201206616657, 0.0012258810522303904, 0.0011762484161664346, 0.0011419227741427452, 0.0011644145611410185, 0.0012824555567373993, 0.0011501839868308691, 0.0011520494699403935, 0.0012656986831214242, 0.0011841110114966743, 0.0011448123513003645, 0.0011884335530096878, 0.001143923098643128, 0.00117445499843941, 0.0011656695737433556, 0.001267152145213037, 0.0011667450254418499, 0.0011985845216527639, 0.0011790360024275489, 0.0011896390468658523, 0.0011938600278018035, 0.0012095224149669293, 0.0011488425012089617, 0.0011877386032820426, 0.001171436684242996, 0.0011464072535369162, 0.0011654015364727034, 0.0011476678464599284, 0.001130458079130362, 0.0011440297111204127, 0.0011742208550589242, 0.001188550748726243, 0.0011543152448483145, 0.00117749371479403, 0.0011392881778390853, 0.0011781378686659787, 0.0011448793406682676, 0.0012208306490508623, 0.0011471454945602168, 0.001207338266401369, 0.001133643324613041, 0.001175015774187944, 0.001129812482844706, 0.0012148593064935378, 0.00113738123941262, 0.00111222361736815, 0.001175412944186461, 0.0011939096046318163, 0.0011512482805017836, 0.0011722172888588426, 0.0012125806526676526, 0.0011397583281465905, 0.001159895401462026, 0.0011964674832857702, 0.0011479163613357826, 0.0011640518771252142, 0.0011459590369291162, 0.001142189864263674, 0.0011716171062539338, 0.0011955715672492188, 0.0011271578026322328, 0.001124619705227163, 0.0011428005207292087, 0.0012135125144613968, 0.0011630577372940304, 0.0011645507485951838, 0.0011524443916461104, 0.0011584673599180292, 0.0012204878203103905, 0.00118108697838364, 0.0011585215743092523, 0.0011536237868298358, 0.001176501485287714, 0.0011910186514227968, 0.00116680479739105, 0.0011955708653583904, 0.0011448575391513123, 0.0011361296655883007, 0.0011660905063314595, 0.0011593852545382839, 0.0011711887630590056, 0.0012002878786179665, 0.0011890171322368483, 0.0011041044691483116, 0.0011828050917795942, 0.0011635980320472187, 0.0011780729465726153, 0.001158407793298941, 0.0011314137954280487, 0.0011385218911675581, 0.0011181577687871085, 0.0011424107319928125, 0.001116423167797282, 0.0011300884407972691, 0.001113985895973735, 0.0011564983442331291, 0.001134477046540672, 0.0011190477633678704, 0.0011125605637192497, 0.0011556048865967383, 0.0011596133183873775, 0.001171793860239445, 0.0012085260068500866, 0.001123464311966045, 0.001114678436525312, 0.0011254608890783196, 0.0011555885319289385, 0.001128073032672193, 0.001101312110767551, 0.0010967063764221684, 0.0011697384180835856, 0.001176653913327441, 0.0011352377764970794, 0.0011259478600441715, 0.001157459063604684, 0.0011199896510800497, 0.001177297662985406, 0.001140017780241134, 0.001145236238801171, 0.0011707547775570211, 0.0011100985741339276, 0.0011372267440967604, 0.0011780443611964406, 0.0011444063748132054, 0.0011146897393203609, 0.001132590024926822, 0.0011097303134017839, 0.0011913916836554825, 0.0011094761383214108, 0.001165283534798224, 0.0011064630114030194, 0.0011067387245732572, 0.00112781201328064, 0.0012295530079818578, 0.001168681316537717, 0.0012170993412631275, 0.0011670683785292312, 0.0011147689376838274, 0.0011516992005783295, 0.0011900228387898342, 0.0011153150131720025, 0.0011505969294791029, 0.0011435018407952335, 0.0011414550635532098, 0.0011476414293123546, 0.0011613867076513706, 0.0011986386746480435, 0.0011206876701932073, 0.0011405926126524582, 0.0011215608187335787, 0.0010985048405618902, 0.0011186318238273457, 0.0011389032647045674, 0.0010847453573969014, 0.0011533408420843297, 0.001168248292389001, 0.0011752363190313839, 0.001157230898016005, 0.0011653440118193686, 0.0012023727801631118, 0.0010990919618378903, 0.0010858664642125222, 0.0011845150299147494, 0.0011115413541598537, 0.0011007589313492883, 0.0010909168810911557, 0.0011508398547381764, 0.0011591397804250623, 0.001127820760246972, 0.0011703917762943355, 0.0011369306633871455, 0.001084129922715046, 0.0011321166722511962, 0.001130443228496762, 0.0011311457593804742, 0.0011194925168973473, 0.001144064401324823, 0.0010835457626427142, 0.0010992931130257937, 0.0011386759579623605, 0.0011022160408679029, 0.001113072936852713, 0.0013259334397916623, 0.001089496242734298, 0.001170115049734295, 0.0011290026485699226, 0.0011223297344022855, 0.0011498751897014016, 0.0011301057001518655, 0.001189754384647222, 0.001119355252873383, 0.0011087626291623035, 0.0011595917488757279, 0.0010949060161710782, 0.0011161411092351459, 0.0010709054109713835, 0.0011300390801716898, 0.00113342045787397, 0.0011496547189919074, 0.0011435776757914538, 0.0011902323293272073, 0.0011354736444586825, 0.001121528044941554, 0.0011420958406068468, 0.0011290510967175576, 0.0010903794640156335, 0.0011400878077694443, 0.001168315764368087, 0.0011393885147943678, 0.0011043261944932803, 0.0010947882137503399, 0.0011011101914041488, 0.0010776383199996734, 0.001141463281284102, 0.0011133410139131986, 0.0011539718503496836, 0.0011507627114316125, 0.0010895017062693838, 0.0011218660907979443, 0.0011612899190784945, 0.0011069822262084108, 0.001138229303637828, 0.001107467409018596, 0.0011204496685931651, 0.0011292518549786672, 0.0011436556447271056, 0.0011107255449905073, 0.0011629618211409201, 0.001137961457440392, 0.0011090328309660467, 0.0010921207778469535, 0.001090604590097405, 0.0011418312883861178, 0.0011246110478958505, 0.001088787890304942, 0.0011323336181499981, 0.001091706798185445, 0.0011006028212219281, 0.0011132546865485454, 0.0011265832236885963, 0.0010661868260906297, 0.0011259181010657882, 0.0011150678060451176, 0.0011563715542222775, 0.0011103328617957577, 0.001088365269898518, 0.0010952034711826778, 0.0010938922159654686, 0.0011304954172287388, 0.0011493189508327418, 0.0010829414070943637, 0.0010802732535908487, 0.0011040212550789286, 0.0010835399835277472, 0.0010709688989159708, 0.001063649322937205, 0.0011016933572768912, 0.001115876278057188, 0.0011031940062273937, 0.0010555664979269544, 0.0011239192601257973, 0.0011104363396320436, 0.0011217650176769966, 0.0010812159805671214, 0.0011257040867464593, 0.0010919527675833543, 0.00110743652610164, 0.0011521051904002987, 0.0010711789856737775, 0.001122168069850289, 0.0011694771037141605, 0.0011695906711576974, 0.0010778633673466259, 0.0010915400717917399, 0.0011340954996268493, 0.001129588447163224, 0.0011173231612195652, 0.001069419308392049, 0.0010839485255545885, 0.0011020107784374743, 0.001095342125415403, 0.001061066253868103, 0.0010769556950100615, 0.0011032947743967335, 0.0011242969272780537, 0.0010978795611677806, 0.0011344217318837169, 0.0010636233033336224, 0.0011073398005933006, 0.0010880930474715654, 0.0011264988662089445, 0.0011069770959595622, 0.0010971036801079958, 0.0011150111027253683, 0.001078648709770255, 0.0011095236148872339, 0.0010805864720289196, 0.0010988641246208423, 0.0011222704214559264, 0.001077799126565174, 0.0010660151096357723, 0.001089600019553318, 0.0011018133780847509, 0.001047723789598408, 0.0010818999981535209, 0.0010838604771092415, 0.0010859476226516844, 0.001120351398247931, 0.0011450462552275928, 0.0010764262046458399, 0.0011128175583986245, 0.0011363167969419025, 0.0010931905908395426, 0.001120104972003095, 0.0010835464373817787, 0.001076839475452702, 0.0010971270082339299, 0.0011119250935540093, 0.0012002407335515405, 0.001152522340007225, 0.001116468948446276, 0.0010772861370281091, 0.0011038783017760772, 0.0011054472332079285, 0.0011132178318118407, 0.001120129277806719, 0.0010469501280250021, 0.0010529204820991919, 0.0010709519499961272, 0.0011388105137821348, 0.001085890374090583, 0.0010703535777203408, 0.0010593150437064373, 0.001081417949558726, 0.0011284492106539057, 0.0010906309894685507, 0.0010924970537087102, 0.0010685294380770782, 0.001078675704200468, 0.0010507850935429438, 0.0010686806430209653, 0.0010768388106889653, 0.00107126037285352, 0.0010702215123137462, 0.001078610322109717, 0.001105420843701827, 0.001099228347403541, 0.00109164104824099, 0.0011483709960082634, 0.0011247480671673505, 0.0010891674195139009, 0.0010776696025229713, 0.0010835043459657863, 0.0010733027077684813, 0.001097272461050183, 0.0010818383031963937, 0.0010817993098700153, 0.001081565399364764, 0.001068735451422165, 0.0011001113606167756, 0.0010919856458187147, 0.0010670656318574536, 0.001092430886570202, 0.0011268236518390165, 0.0011107928496934365, 0.001082237412181279, 0.0011092989568356661, 0.0011811324813697489, 0.0011083879346693178, 0.0010650800827690134, 0.0011084156923628124, 0.001092094093848309, 0.0010786396697156095, 0.0010988664344250463, 0.0010545354509371347, 0.0011102351729952214, 0.00104038893383354, 0.0010501993457360252, 0.0011085197979902209, 0.0010571628971677975, 0.001132965647465315, 0.001081330580555639, 0.001072375615077697, 0.0010453618821434302, 0.0011131030189660287, 0.0010366462431097162, 0.0011357793685385803, 0.001100462214531066, 0.001072800153933377, 0.0010956257853730106, 0.001078467552556348, 0.001113828265983433, 0.001138713420038277, 0.0010787387712590751, 0.001068274061639157, 0.0010707468727174205, 0.0010586312344867419, 0.001136137542983539, 0.0010397574138388398, 0.001085582886743372, 0.0010700540774245143, 0.0010900767872174667, 0.0010916008353148137, 0.0011441034962156075, 0.001050614672855913, 0.0011278286609364221, 0.0010829712939442683, 0.001027303560328859, 0.0010920919619783948, 0.0010791921984120373, 0.0010526122048899478, 0.0010794562329317597, 0.0010714901830001242, 0.0011411925624948056, 0.0010729437770877605, 0.0010798658648998381, 0.0010431474230906586, 0.0011087789490126056, 0.001071609172228486, 0.0010713268158736476, 0.0010964726173838411, 0.0010781480867127257, 0.0011074555163430504, 0.001065330731558818, 0.0010502538432278917, 0.001065718819049318, 0.0011022524414733739, 0.001094793403760381, 0.0010580395851941986, 0.0010817293299796192, 0.0010567034032019354, 0.0010770413317416146, 0.001057729945669289, 0.0010395472923531161, 0.0010423489617045732, 0.0011514382289381593, 0.0010894642188874675, 0.0011314103340123467, 0.0010703786054546318, 0.0010715703264720642, 0.0011039887940738524, 0.001077555400589653, 0.0010541935002564412, 0.0011058913739922867, 0.0011137251955872366, 0.0010363728513306694, 0.001066045463788285, 0.0010373470855034506, 0.0010509195877103743, 0.0010938276022222121, 0.0010433900477481712, 0.0010358757383877918, 0.001072895141054396, 0.001031152410785048, 0.0010709852383267542, 0.0010233515502786087, 0.0010581337040965956, 0.00104644165806636, 0.0010645548332688492, 0.0010817505316319906, 0.0010670887571782616, 0.0010947472221434155, 0.0010323006482853806, 0.0010533543128958042, 0.0011276746946796278, 0.0010318784233215796, 0.0010319202613049197, 0.0010902078873774093, 0.0010822232363357147, 0.0010848452982924483, 0.00104605916461714, 0.0010455733911819416, 0.0010863670701497532, 0.0011100800162778942, 0.0010140675753774664, 0.001111740398699438, 0.001068514226067865, 0.0010345670180182639, 0.0010434396150396125, 0.0010390518591009853, 0.0010588006577253845, 0.001047024215786895, 0.0010545297939085565, 0.0010531739361697896, 0.0010449291967326445, 0.001053682526205421, 0.0010751149632065673, 0.001018652085682824, 0.0010831663864999965, 0.001126755933429716, 0.0010951067931717102, 0.0011050913196918493, 0.001039779604703733, 0.001040596490198821, 0.0010598495871489697, 0.0010975945093172918, 0.0010396548928389554, 0.0010484013090730471, 0.0010458117152169909, 0.0010656286856983235, 0.0010466400525143602, 0.0010517489005374837, 0.0010397628421666516, 0.000999121406530769, 0.0010462849801503406, 0.0010849901092275034, 0.001043255098351445, 0.0010940112522150303, 0.0010297699861620871, 0.0010636520924752293, 0.0010507311226950421, 0.001028000774887128, 0.0010803206525995428, 0.0010590489649475985, 0.0010474159831123677, 0.0010324648624814303, 0.0010088965241272841, 0.0010521577896340719, 0.0010431797951646212, 0.0010233061117919228, 0.0010744016692469946, 0.001093592989734959, 0.001053083895617811, 0.0010597668188590957, 0.001051306608692799, 0.0010394300988661293, 0.001044176354780239, 0.0010600524896791808, 0.0010715956998264852, 0.0010217078202849198, 0.0010608395436170629, 0.0011135070693720404, 0.0010713245433187635, 0.0010986023560949016, 0.0010388225802382364, 0.001069293927018137, 0.0010276699210168341, 0.001034209826165602, 0.0010645705979613958, 0.0010500750664652488, 0.0010303842508293485, 0.0010684154386777541, 0.0010796887492592205, 0.0010577373453886526, 0.001045554614200342, 0.0010750926921902818, 0.0010226104663565204, 0.0010269548214651759, 0.0010178783747324402, 0.0010324238854515044, 0.0010640773236433524, 0.00101472323039324, 0.001106865894381134, 0.001024956904404186, 0.0010156357380891666, 0.0010530954765941198, 0.0010628254027313694, 0.0010243708380751528, 0.0010625331730079529, 0.0010248714579583343, 0.0010538603443388504, 0.0010524956764015989, 0.0010568501641318518, 0.0010431064906875347, 0.0010317369252325465, 0.0010745395382603653, 0.0010452205614229343, 0.0010777432360258282, 0.0010214165464985131, 0.0010511084248637655, 0.001043976611317541, 0.0010282532546649977, 0.0010235216961370938, 0.0010800970825463022, 0.0011352714220917578, 0.0010433629378848413, 0.0010214240269951407, 0.0010128116726318868, 0.0010224223254396128, 0.0010223356007993132, 0.0010214247705896476, 0.0010512917769241346, 0.0010433563129420911, 0.0010316015942065681, 0.001049710088207628, 0.0010289709752598505, 0.001031636137916589, 0.0010398422930144072, 0.0010479928021400113, 0.001049828290566356, 0.001032865588532069, 0.001086290176095401, 0.001039535026041719, 0.001026795439626136, 0.0010599602418110824, 0.0010983508195385346, 0.0010495761156445412, 0.001036137303818564, 0.0010523619951228655, 0.0010277195798846124, 0.0010528916352069856, 0.0010449512507796745, 0.0010442129689043106, 0.00106186438170956, 0.0010399395048083379, 0.001020741091758298, 0.0010705231234578421, 0.0010341895784077965, 0.0010038710603007608, 0.0010431193142457131, 0.0010329858566249437, 0.0010331595716840318, 0.0010632266476646856, 0.0010316391316860902, 0.0010623138931818133, 0.001057621890513536, 0.0010107951530621824, 0.001053373772031774, 0.0010392477202010866, 0.0010728627482092163, 0.001017694490785435, 0.0010274489886182671, 0.001041230378980161, 0.0010357057932187312, 0.0010467693159375345, 0.0010200084701786263, 0.0010283759976241918, 0.0010292017576877927, 0.0010365663709575386, 0.0010446358838215918, 0.001043119969416533, 0.0010048116193370825, 0.0010602961084263962, 0.0010171720796600258, 0.0010187114281992322, 0.0010384175822823743, 0.0010388374083754911, 0.0010529293705511486, 0.001014256366899555, 0.0010373609350409288, 0.0010743560266741772, 0.0010406577598542279, 0.0010174506997813664, 0.0010359033577692143, 0.0010272109483845822, 0.001107214952475218, 0.0009820307725094508, 0.001087638102592066, 0.0010177263953169127, 0.0010320320778648036, 0.001028974205895315, 0.0010777267390402975, 0.0010316464637073965, 0.0010304514925740438, 0.0010237076940366433, 0.0010181280335178281, 0.0010901387061741554, 0.0010156593957385425, 0.0010358086242914619, 0.0010307362570476967, 0.0010562462502311427, 0.0010586456958587994, 0.0010159410083049809, 0.0010444213355445173, 0.0010933318009822043, 0.0010505601354695029, 0.0010535837293961805, 0.0010546304859456999, 0.0010262419180332226, 0.0011146196024197758, 0.0010237317354399307, 0.0010460473228382616, 0.0010369940742504082, 0.0011069064115976125, 0.0010686650723713404, 0.0010299201245027435, 0.0010513422424175138, 0.0010493072322984645, 0.0010230170962979308, 0.0010273197879713783, 0.0010725376796047108, 0.0010107069507941334, 0.0010527940242514322, 0.00101698223086983, 0.001002204436999134, 0.0010120981127915048, 0.00105982728246222, 0.001018887712800077, 0.0010237910791545332, 0.0010162931122877138, 0.0010277036302599168, 0.0010725045792310797, 0.001009106380626414, 0.0010181307466700675, 0.001049196977838307, 0.001067226872264717, 0.001019943155497682, 0.0010609875486529193, 0.0010493965688287842, 0.0010235730791806846, 0.0010406587344125135, 0.0010453181956906162, 0.0010439370527505817, 0.001034885478602842, 0.0010481349948112677, 0.0009834836603605914, 0.0009845678220910246, 0.001019886818709025, 0.0010511076707906846, 0.0010131431886481654, 0.001021817716881034, 0.001039914110844742, 0.001010431599018222, 0.0010159498176725533, 0.0010489494229889288, 0.0010527674417323896, 0.001014013621871227, 0.0010129442286235563, 0.0010493219744743113, 0.0010486478096270097, 0.001025146379853948, 0.0010568922682794764, 0.0010228136274452013, 0.0010438359947058961, 0.001015408383312899, 0.0009967268611994515, 0.0009885395899175814, 0.0010463153653774632, 0.001087583136388783, 0.0010450653841788467, 0.00103782650577551, 0.0010271930398867643, 0.0010676510177604296, 0.0010369247831429691, 0.0010382229032687858, 0.0010101704126319953, 0.00103623981345601, 0.0010618248016869862, 0.0010432980300766406, 0.001031972160475283, 0.0009910820372611771, 0.001040548925813085, 0.0010380835914260533, 0.0010548500504745867, 0.001038110637810386, 0.0010157269434618401, 0.0010501411133714941, 0.0010227268428842553, 0.001056231605021615, 0.0010012471832408414, 0.0010071928509615047, 0.0010314835507818274, 0.0010104786906188015, 0.001027690691176054, 0.0009863261195645308, 0.0010450824284477757, 0.0010407921268657887, 0.0010251178313568255, 0.00103152079213724, 0.0010592108599203143, 0.0010216795088908513, 0.0010314560801667643, 0.0010199067990237303, 0.0010412926722602842, 0.0010632801212037712, 0.0010128396813170544, 0.0009872285299152108, 0.0010505365015996688, 0.0010753350785610784, 0.0010226834925763032, 0.0010421448094419471, 0.0010395889974501979, 0.001036261030518282, 0.0010363713373569739, 0.0010106231843806305, 0.0010177971562215387, 0.0010058435088780163, 0.0010126294368057367, 0.0010282386695666247, 0.0010521542203729517, 0.0010193979951286932, 0.0010005495122779753, 0.0010284415637725826, 0.0010220549155975675, 0.001021283971169319, 0.0010188826129036168, 0.000967513567313524, 0.0010266929995014573, 0.0010084951919055686, 0.0010433493083878485, 0.0010218178245138467, 0.001010647700102898, 0.0010707733462396315, 0.0009916882080783387, 0.0010291383651293185, 0.0010353678376459267, 0.0010890571252197168, 0.0010070461571873828, 0.0009992434618958444, 0.0010568011261538857, 0.0010194807387256986, 0.0010483687311364641, 0.0010786290769385638, 0.0009953459498458815, 0.0010048349787028527, 0.0010216608742966567, 0.0010350443580504456, 0.0010339063603645822, 0.0010103663550396788, 0.0010165373648765431, 0.0010246769006381725, 0.0010382557403757753, 0.001081534774628644, 0.0010913436098082218, 0.001004485993957588, 0.0009873216717301552, 0.0010193959601140178, 0.0010036421540940482, 0.0010530293341699788, 0.0010097731644226073, 0.0010263671735161468, 0.0009803423963436347, 0.0010333163100615665, 0.0009957008495640675, 0.0010061952744954757, 0.0010621803375639443, 0.001087064483155934, 0.0010090573942108006, 0.0010023575329876958, 0.001062056385260967, 0.0009999522748736092, 0.0010614019147408347, 0.0010588285588370616, 0.0009745921893304099, 0.0010277510428874912, 0.0010035774508565132, 0.001025444402726668, 0.0010343185880125237, 0.0010267602262077134, 0.0009935497015384352, 0.000999022917606611, 0.0010296033753492081, 0.0010147805563653547, 0.0010086957033920753, 0.0010425777101800708, 0.0009787004216061412, 0.0010061702347499818, 0.0010267111164659118, 0.0010014536344011, 0.0010119701481233804, 0.0010035478260123495, 0.0010199131955671034, 0.0010396360028751713, 0.000989050908717209, 0.0010425680285798566, 0.0009968308072391306, 0.000987903491271645, 0.0010025771874084012, 0.001005752553979238, 0.0010100165147699986, 0.0009757593762419869, 0.0009921603492829343, 0.0009898601133007604, 0.0010258787893172587, 0.0010235287531781636, 0.000985605049819514, 0.0009881221593667211, 0.001040559883281431, 0.0010195181911603246, 0.0010128495124703473, 0.0010184891137899482, 0.0010077765102743646, 0.0009881140369164348, 0.001003383663686412, 0.001052948565718163, 0.0010171666197097673, 0.0010211693440803974, 0.0010082891048871813, 0.0010339946413901442, 0.000990102032713338, 0.0010433300426139853, 0.0010063186871780024, 0.00098947039800157, 0.0009875154568249659, 0.0010045869496738426, 0.001001381197982584, 0.0010059122789978264, 0.0009938789934336198, 0.0009872112722521, 0.001002763424621463, 0.0009829318208998022, 0.0010037841671321633, 0.0010183406367349516, 0.0010166362516038795, 0.0009975056088336511, 0.0009909904605556767, 0.001104926491168085, 0.0010033020882753566, 0.0010306593970776721, 0.001065986435949976, 0.000979506387185782, 0.0010704321970923633, 0.00099173803482585, 0.0010166021602364605, 0.0010058394300112138, 0.00100166747575091, 0.0010372102765879472, 0.0010290783818608289, 0.001016691358714094, 0.001023765212801927, 0.0010211703671538924, 0.0009756498507551451, 0.001000542976121815, 0.0010202288022428075, 0.0010183859168860498, 0.00100241561669655, 0.0010317231971854453, 0.0009971154381580526, 0.0010293448574263085, 0.0009994312426558358, 0.0010260736786237396, 0.0010030961642969465, 0.0009661968404547569, 0.0010417035393228643, 0.0010303288943122463, 0.0010379032614998738, 0.000992275304900353, 0.0010026677491295594, 0.0010023666584730328, 0.001019546959797467, 0.0010553615432530108, 0.0010153688306124911, 0.0010067753703962494, 0.0010325929518126874, 0.001021668009664456, 0.0010248248337043566, 0.001015790457085282, 0.0010360942621597197, 0.0009946115937655051, 0.0010278749408622568, 0.0010171225749680973, 0.0009696245511549286, 0.0010198132343737253, 0.0010249546828084764, 0.0010443509905300457, 0.0010306192804290372, 0.0009936291448665734, 0.0010322372651727113, 0.0010191107291465727, 0.000994140886045991, 0.0010032442498427168, 0.0009948015547682858, 0.0010296282897039734, 0.0010378768364608221, 0.0010070747344300122, 0.0010185976330534569, 0.0009880778847796406, 0.00102868009260643, 0.0010289576837538823, 0.0010565056873151168, 0.0009885656042195692, 0.001055283072506805, 0.0009820876066976994, 0.0010244828883350127, 0.0010154316743487674, 0.001015242191507986, 0.0009908003198460993, 0.000982106105575278, 0.0009505473663331302, 0.0010136913731511878, 0.0010062790105979961, 0.0010155753745534522, 0.000993117327802998, 0.0009916863880482045, 0.0010145865162592778, 0.001036551462449519, 0.0010670193764369964, 0.0009908347502498517, 0.0009865955122634732, 0.0009799190777442807, 0.0009865163136830218, 0.0009990075299386606, 0.0010453424198140018, 0.0010320316056481869, 0.0009987642263873226, 0.0009497907782439622, 0.0010015500288579463, 0.0009702214830371562, 0.0009828887752667526, 0.0010188677678431418, 0.0009997547066192558, 0.0009973174210110038, 0.0009990381496273958, 0.000998816742095061, 0.0009958368485870552, 0.0009795774397513993, 0.001023830522890757, 0.0009989120770578154, 0.0010077005492820483, 0.0010492745423095467, 0.0010027322570784014, 0.0009804342504329256, 0.001025260686915796, 0.0010225081249830097, 0.000998432460165692, 0.0009713073818271225, 0.0010375912624521807, 0.0010686455734164734, 0.0009940790080197987, 0.0010552885670723074, 0.0010023529742859214, 0.0009981969980902496, 0.0009810085839281532, 0.0009884097468591756, 0.0009993605118372452, 0.0010136316403922263, 0.0010073115073821908, 0.0009854080095436809, 0.0009607643986961846, 0.001046549918834504, 0.0010428740738549624, 0.000995983805017673, 0.0009634531866100547, 0.0010035308237435125, 0.0010247692871101777, 0.0010014074037392037, 0.0010092802985949396, 0.0010171736548708085, 0.001022426896784633, 0.0009927513808468754, 0.0009853869864769522, 0.0010140453775523378, 0.000988572598324701, 0.000977288321126093, 0.0009620805158384626, 0.0009744035532179979, 0.0009794465695200782, 0.000984052448588737, 0.0010003521482624396, 0.0009918279985691963, 0.00098229157385001, 0.0009949847123426067, 0.001008907447965378, 0.000980673637617365, 0.0009764899350695596, 0.000995936717746637, 0.0010320683199296471, 0.0010021341823084596, 0.001005375713522679, 0.0009959221369421735, 0.0009680096409136268, 0.0009999739450960586, 0.000985069942894177, 0.000985522552221541, 0.0009884436014778821, 0.0009904934580413313, 0.0010005497022989147, 0.001019387496327558, 0.0009765612665597583, 0.000986019412115571, 0.0009847012751590983, 0.0009737441730835232, 0.0009503868252710058, 0.0009613306169693068, 0.000999540040270211, 0.0009995625097853694, 0.0009838876674522594, 0.000983335835136441, 0.0010057406935762968, 0.001017296349299067, 0.0009611263789968957, 0.0009512481714644063, 0.0010269855206804263, 0.000981195327029092, 0.0010128235824950163, 0.0009636621813897539, 0.0009828731732180365, 0.0009749093991002371, 0.0009857973382623852, 0.0009875832257684298, 0.000974182229382467, 0.000964023969453892, 0.0010061157418571976, 0.0009952941222076375, 0.0010445695469368831, 0.0009588420762570665, 0.0009560433173422044, 0.0009739148157818188, 0.0010243241750682902, 0.001003391863500334, 0.0009871711269688393, 0.00102588186776119, 0.001011553886375384, 0.0010285297073054389, 0.0010016974223956495, 0.0010081683233776543, 0.0009861555128658022, 0.00099076095230657, 0.000984102024068666, 0.0009833084077716212, 0.0010117460496644184, 0.0010238634502735685, 0.00098656459501196, 0.0009863156974900106, 0.0009917279222403084, 0.0009701747895041182, 0.0010088015549029308, 0.000980155197392704, 0.0009679531126201733, 0.0009739369678699395, 0.0010006623172754067, 0.0009865243414562787, 0.0010263443432078493, 0.001002281942584287, 0.0010336044173727193, 0.0009817241310059485, 0.0009908252744378061, 0.0010200792642520637, 0.0009851694727500756, 0.0009916526123972275, 0.0009781051515424803, 0.0010271964806391446, 0.001051966740423941, 0.0009760166720910637, 0.0009832591005398258, 0.000975362993064929, 0.000970893432822976, 0.0010131845928434912, 0.0009711687105489489, 0.0010410307060813126, 0.0010199238075184374, 0.0009781280001491645, 0.0009702370403587397, 0.0010026698090716056, 0.0009777214510045262, 0.0010033431990638603, 0.0009462519768374193, 0.0009810678866837923, 0.000993457190926848, 0.0009832889444189798, 0.00095545961585029, 0.0009491148650206747, 0.0009937141892416132, 0.0010222317079288685, 0.0009798331110859727, 0.0010049585653195844, 0.0009976394632877398, 0.000985208867915152, 0.0010159761757162593, 0.0009993335111270144, 0.0009824311254045908, 0.0009454578972400403, 0.0009448744959161149, 0.0009929484595314034, 0.0010009630898579226, 0.0010305499578962293, 0.001009052554391106, 0.0009699301116326798, 0.0009672078468929053, 0.0009743881786216885, 0.0010148274063603462, 0.0009921522014470206, 0.0010149349758866377, 0.0009395920130975701, 0.0009681393353352666, 0.0009560853412739389, 0.0009829138698164313, 0.0010312157247900544, 0.000989402140480837, 0.0009639159198201033, 0.0010011719961102196, 0.0009729268168907126, 0.0009955902337860259, 0.0009561972002163256, 0.0009734203818572842, 0.0009657355163126314, 0.0009557429910306984, 0.000979467443190197, 0.0009613416534109571, 0.000978649375991803, 0.000966630308418573, 0.0010319398660364842, 0.0009581488987910527, 0.0009443697239815434, 0.000960187615305007, 0.0009943273812402233, 0.0010000711421330336, 0.0009693718540315641, 0.0010219794035949406, 0.0009756450840939608, 0.000974621246622607, 0.0009732666561498198, 0.0009702688791119764, 0.0009789199009834308, 0.0009782189869681959, 0.0009774124021985902, 0.0009562269088434896, 0.001004866479258432, 0.0009847125834432653, 0.000981433724581373, 0.000968962910392168, 0.000980610517545593, 0.0009934291213457966, 0.0009668298576926308, 0.0009758934309831823, 0.0009562565054167261, 0.0009412073015947075, 0.0010002963993456769, 0.0010114045600648418, 0.0010034736120883374, 0.0009652704242436933, 0.0009596824955683146, 0.0010131019475616936, 0.0009922226448264672, 0.0010155746113833341, 0.0009898159418676481, 0.0009767587814067914, 0.0009383404782873138, 0.0009724070126467569, 0.0009979385130045135, 0.0009760139332569832, 0.0010018405900707069, 0.0009756619376149516, 0.0009582439422399274, 0.0009609011415873987, 0.0009623788378663106, 0.000968031300522534, 0.001005041129676808, 0.0009441537887881042, 0.000984208345080843, 0.0009563610662557136, 0.0009637303107375761, 0.0009569574436992211, 0.0010569722128428599, 0.0009587480580720384, 0.0009362687997066252, 0.0009774211590944646, 0.0009916111552030697, 0.0009396084813790003, 0.0009744900204020709, 0.0009222136870761629, 0.0009733805645775768, 0.0009546314856722611, 0.0009359437410006073, 0.0009882354093380319, 0.0009679949752141665, 0.0009568704782299002, 0.0009592247876356498, 0.00097886709148407, 0.0009115654827958651, 0.0009526182816200794, 0.0009685070817153356, 0.0009693976173697488, 0.000961744122894509, 0.0009645163781260757, 0.0010038074657043711, 0.0009414195218155746, 0.0009754197130180549, 0.0009742795027702156, 0.0009813734735914846, 0.0009778644183510705, 0.0009777947079420385, 0.0009295779027204985, 0.0009307294866686388, 0.0010074368324352139, 0.0009591759194604189, 0.00094110894484892, 0.0009677866392984073, 0.0009533724189294334, 0.0009729969506874194, 0.0009705635847746923, 0.0009632533754254106, 0.000949025123613473, 0.0009653396025938957, 0.0009903171236265533, 0.0010049603524970281, 0.0009629730871011739, 0.0009611014718103918, 0.0009686065698404816, 0.0009591233036581971, 0.000982497679431147, 0.0009744688489607495, 0.0009600795065317169, 0.0009888698117546011, 0.0009405520829707659, 0.0009472285985829443, 0.000964296748962001, 0.0009477633607851546, 0.0009878961458581975, 0.0009368616901441615, 0.00099710452964008, 0.000971508180131281, 0.0009829787788309876, 0.000965037158912633, 0.0009598797291003504, 0.000995678906400243, 0.0009728344428672634, 0.000986637875207056, 0.0010140893589519694, 0.0009587708986220179, 0.0009850037959539654, 0.0009456961493396583, 0.0009577833695127199, 0.0009659143854395256, 0.0009752609790597436, 0.0010097138429270478, 0.0009364591248275883, 0.0009955307005965293, 0.0009947050447031416, 0.0009283003509007222, 0.0009810272520048915, 0.0009554969110374375, 0.0009355960266240051, 0.000953096087556412, 0.0010286486446405964, 0.0009610192471111933, 0.0009722553960106746, 0.0009657960509358701, 0.0009525821096425149, 0.000983540456658121, 0.000937304944300431, 0.000986278639752695, 0.0009973918115506752, 0.0009813660060472565, 0.000958564345991314, 0.0009572023765030942, 0.0009624801054948057, 0.0010053400732892173, 0.0009521263334919255, 0.0009627880761889573, 0.0009356096657184935, 0.0009492993460445065, 0.0009625801701515051, 0.0009578203108978188, 0.000945729134226821, 0.0009323643244629044, 0.000962898665603149, 0.001023436252067723, 0.0009478786872120489, 0.0009598796305203812, 0.0009560341451742838, 0.00098426413179516, 0.0009856212893543923, 0.0009539507729970092, 0.0009738550820975869, 0.0009290768088872107, 0.0009534389464410464, 0.0009242848613356443, 0.0009441627061472109, 0.0010158311143262208, 0.0009466666878304106, 0.0009724934377540958, 0.0009639372001302545, 0.00097902156817726, 0.0009219859794963745, 0.0009656703271189636, 0.0009471048290691422, 0.0009348000426547062, 0.0009637788169276449, 0.0009298440219304765, 0.0009461642406170501, 0.00095624690242771, 0.0009729583304183985, 0.0009315957301436835, 0.00101050272874741, 0.0009659708029039207, 0.0009548092255822784, 0.0009459855953441988, 0.0009434265010178718, 0.0009431478641176354, 0.0010010865497499673, 0.0009811977073103514, 0.000947286677801209, 0.0009546290103944671, 0.0009411861342346906, 0.0009662774381100865, 0.0009587978640427588, 0.0009442326758974508, 0.0009436840179463737, 0.0009469344441137321, 0.0009501748942787102, 0.0009724727398197538, 0.0009830780458918384, 0.0009491918165817672, 0.0009501129904570088, 0.0009384448052941433, 0.0009586794852813746, 0.0009692378661804071, 0.0009502493203035556, 0.0009526419298294226, 0.0009441610921865296, 0.0009446576271782961, 0.0009853780300116128, 0.0009258717296489135, 0.0009519992675797465, 0.0009662175819086816, 0.0009580578297785837, 0.0009583286865857295, 0.0009742555931833921, 0.0009879551936690593, 0.0009480126919776677, 0.001020193288710542, 0.0009459357449720215, 0.0009541608714293938, 0.0010015944313959768, 0.0009634724225604534, 0.000944810534009478, 0.00096930008890962, 0.0009432686678810418, 0.0009576951233580056, 0.0009252821160130419, 0.0009311571962128598, 0.0009573532777156638, 0.0009257093899473727, 0.0009431585873021375, 0.0009546028832040559, 0.0009402563006128375, 0.0009446583794699119, 0.0009425418498372773, 0.000923911016646041, 0.0009460838271664722, 0.0009604576888269485, 0.0009773594762397138, 0.0009407948273214642, 0.0009179768017488809, 0.0009422728491370708, 0.000969926197122494, 0.0009536136187263126, 0.0009415082094716145, 0.000955600894945938, 0.0009484800428088225, 0.0009537997476297281, 0.000956482991913258, 0.0009289932078587129, 0.0009475599486950469, 0.000918859505364246, 0.0009663830698201359, 0.0010071413125775125, 0.000978805477029293, 0.0009412878321884017, 0.0009471672763212688, 0.0009394610604458734, 0.000957946235013179, 0.0009669020869233263, 0.0009706294058953321, 0.0009323075909012494, 0.0009325760530629423, 0.0009361844529734929, 0.0009224617059540675, 0.0009417993333099906, 0.0009668840903981662, 0.0009172220244892937, 0.0009180184826167255, 0.0009699760734020568, 0.0009809756894087816, 0.0009287629762293212, 0.0009523039352929199, 0.0009298805322052329, 0.00094470948128729, 0.0009764216430635745, 0.0009312301633044888, 0.000944773686459946, 0.0009553561567212772, 0.0009198550608338121, 0.0009188508687679202, 0.0009291136687019572, 0.0009370193893195634, 0.0009273235737128731, 0.0009376451378160606, 0.0009805355220957452, 0.0009641532696705189, 0.0009705978383495829, 0.0009464211866892454, 0.0009327730792576575, 0.0009550136453988858, 0.0009390819693264035, 0.0009861130052124802, 0.0009176509086103636, 0.0009394655037652932, 0.0009343612640082459, 0.0009907492635656651, 0.0009220051750296752, 0.0009802728296531792, 0.0009607756879450129, 0.0009555019858044718, 0.0009600941913383797, 0.0009342196201301235, 0.0009454601413667333, 0.000944374298557646, 0.0009337436507928036, 0.0009733038656329548, 0.0009680909075957476, 0.0009669784351072697, 0.0009555537511328479, 0.0009845006460608677, 0.000995251317747401, 0.000971321641940419, 0.0009655138446608457, 0.0009357646342950842, 0.0009249443966464876, 0.0009244187499096945, 0.0009705169198786692, 0.0009637677255211616, 0.0009603941976021092, 0.0009438873209767446, 0.0009309909297854872, 0.00096712902937237, 0.0009750139377942349, 0.0009100235087270549, 0.0009499225169582681, 0.0009559148406319967, 0.0009752491469954131, 0.000950229418096604, 0.0009396864977246327, 0.0009463100401974804, 0.0009738669511635956, 0.0009815190216075221, 0.000943245177798065, 0.0009346276299056353, 0.000959859129104976, 0.0009215140813037866, 0.0009399982955933913, 0.0009398320861416438, 0.0009570138147049843, 0.000979243899342945, 0.000978536774484293, 0.0009150432816538743, 0.0009373243588521992, 0.0009382812082292906, 0.000968749377154578, 0.0009519466906801095, 0.0009524411938162207, 0.0009585034963738544, 0.0009787392910298293, 0.0009454561016642903, 0.0009491376258775183, 0.0009631771112681273, 0.000974921534241148, 0.0009449192141924849, 0.0009467111123890124, 0.0009246819080346488, 0.00095917208435452, 0.0009627283175279854, 0.0009364918051029538, 0.0009503380130326599, 0.0009377487126373778, 0.0009725175979607319, 0.0009548805580471174, 0.0009311165429515017, 0.0009263171708843862, 0.000995738268084569, 0.0009884937692999905, 0.0009249231641715273, 0.0009476040517670044, 0.0009532412481664251, 0.0009497574025208227, 0.0009574635072333214, 0.0009074735003355117, 0.0009412662899559195, 0.0010098633618227323, 0.000943159370085689, 0.0009319463235315124, 0.0009451142725070193, 0.0009580455192429012, 0.0009056686989856115, 0.0009584093333640254, 0.0009521342444027524, 0.0009510327193557339, 0.0009429405638314249, 0.0009048242905974566, 0.0009562611723825604, 0.000906478271632288, 0.0009568466340357209, 0.0009493452268405373, 0.0009649861350477351, 0.0009549093646810819, 0.0009578129477013735, 0.0009144887268305873, 0.0009163708860469789, 0.000953678979019648, 0.0009537053367876444, 0.000944346923342431, 0.0009237385133802749, 0.0009231757015289571, 0.0009483777763922066, 0.0009327795476958532, 0.0009373836228033948, 0.0009508153907841623, 0.0009596626572850799, 0.0009639924354159684, 0.000956927738754826, 0.0009241997752708599, 0.0009739710257558097, 0.000998751267156522, 0.0009462473363785657, 0.0009216582202377664, 0.0009925603842605307, 0.000923618400510351, 0.000917637792895911, 0.0008997776750923472, 0.0009457369933750322, 0.0009254637991767611, 0.0009437980014978458, 0.0009507630555627729, 0.0009578780127242056, 0.0009303797872392026, 0.0009274852978632238, 0.0009404328141620899, 0.0009281374065258965, 0.0009304458322055241, 0.0009179293002351827, 0.0009490207340571092, 0.0009985918556502879, 0.0009404981571167488, 0.0009683915749916052, 0.0009115066012562614, 0.0009124570409385117, 0.0009629098830539025, 0.0009554436002238004, 0.0009116897800098899, 0.0009301396444335256, 0.0009696780124031201, 0.000956522898374507, 0.0009484166945178312, 0.0009453713481503834, 0.0009723195057822883, 0.0009878150462418176, 0.0009500364788355487, 0.0009190688767735898, 0.000902875738858472, 0.0009460831110402476, 0.0009388022758211578, 0.0009687140495760815, 0.0009251055107988663, 0.0009599855920775583, 0.0009599162320672979, 0.0009553064439737887, 0.0009690769534344973, 0.0009352061372327476, 0.0009298750721767404, 0.0009108496714823626, 0.0009240523593697892, 0.0009342555735313519, 0.0009410150004074642, 0.0009258878423906252, 0.00093216595775193, 0.0009732021064513136, 0.0009193555498045805, 0.0009355008417804804, 0.0009438466943736589, 0.0009623205843710444, 0.0009618258006648505, 0.0009778029855864112, 0.0009239078173969272, 0.0009102461178211825, 0.0009218470999609842, 0.0009109784645400592, 0.0009295097406322606, 0.0009470095437493211, 0.0009305218504909802, 0.0009282455509595406, 0.0009403025848247866, 0.0009104985425557856, 0.000964093661745093, 0.0009095767128703162, 0.0009536658276637529, 0.0009197413309749757, 0.0009469982182741865, 0.0009724674603892884, 0.0009339760476796969]
+
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'size': 50, 'activation': 'relu'}]
+Mean sqr error: 1380.21280361098
+Mean abs error: 27.93857331154937
+[0.0013802128036109803, 0.02793857331154937]
+
+{'split_seed': 0, 'validation_type': 'k_fold', 'train_type': 'validation', 'number_of_splits': 20}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'size': 60, 'activation': 'relu'}]
+Mean sqr error: 1334.8786123920272
+Mean abs error: 27.630320863797955
+[0.0013348786123920276, 0.027630320863797957]
+
+{'validation_type': 'k_fold', 'split_seed': 0, 'train_type': 'validation', 'number_of_splits': 20}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 70}]
+Mean sqr error: 1375.818985418246
+Mean abs error: 27.860969299965127
+[0.0013758189854182466, 0.027860969299965132]
+
+{'number_of_splits': 20, 'validation_type': 'k_fold', 'train_type': 'validation', 'split_seed': 0}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 80}]
+Mean sqr error: 1333.1172813849919
+Mean abs error: 27.63321205909862
+[0.0013331172813849921, 0.027633212059098626]
+
+{'validation_type': 'k_fold', 'train_type': 'validation', 'number_of_splits': 20, 'split_seed': 0}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 90}]
+Mean sqr error: 1361.5823171348927
+Mean abs error: 27.974417311365727
+[0.0013615823171348933, 0.02797441731136573]
+
+{'number_of_splits': 20, 'validation_type': 'k_fold', 'split_seed': 0, 'train_type': 'validation'}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 100}]
+Mean sqr error: 1402.471538812175
+Mean abs error: 28.240109264598665
+[0.0014024715388121754, 0.02824010926459867]
+
+{'validation_type': 'k_fold', 'train_type': 'validation', 'split_seed': 0, 'number_of_splits': 20}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 40}]
+Mean sqr error: 1375.8389931731247
+Mean abs error: 27.953928671466997
+[0.0013758389931731248, 0.027953928671467]
+
+{'split_seed': 0, 'validation_type': 'k_fold', 'train_type': 'validation', 'number_of_splits': 20}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 30}]
+Mean sqr error: 1414.6765235335056
+Mean abs error: 28.50638566485997
+[0.0014146765235335062, 0.028506385664859978]
+
+{'train_type': 'validation', 'validation_type': 'k_fold', 'split_seed': 0, 'number_of_splits': 20}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'size': 35, 'activation': 'relu'}]
+Mean sqr error: 1395.3597325414105
+Mean abs error: 27.983219929621253
+[0.0013953597325414109, 0.027983219929621262]
+
+{'split_seed': 0, 'train_type': 'validation', 'number_of_splits': 20, 'validation_type': 'k_fold'}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 45}]
+Mean sqr error: 1373.0397084734727
+Mean abs error: 27.84282334294838
+[0.001373039708473473, 0.02784282334294838]
+
+{'validation_type': 'k_fold', 'number_of_splits': 20, 'split_seed': 0, 'train_type': 'validation'}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'size': 55, 'activation': 'relu'}]
+Mean sqr error: 1376.7679103076969
+Mean abs error: 28.386193461324382
+[0.0013767679103076972, 0.02838619346132439]
+
+{'train_type': 'validation', 'number_of_splits': 20, 'validation_type': 'k_fold', 'split_seed': 0}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 65}]
+Mean sqr error: 1361.1899721903048
+Mean abs error: 27.948424107073595
+[0.001361189972190305, 0.0279484241070736]
+
+{'train_type': 'validation', 'number_of_splits': 20, 'validation_type': 'k_fold', 'split_seed': 0}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 75}]
+Mean sqr error: 1330.279929808557
+Mean abs error: 27.57354481940475
+[0.0013302799298085574, 0.027573544819404754]
+
+{'split_seed': 0, 'train_type': 'validation', 'validation_type': 'k_fold', 'number_of_splits': 20}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 85}]
+Mean sqr error: 1355.60071963
+Mean abs error: 27.699220238190996
+[0.0013556007196300003, 0.027699220238191002]
+
+{'train_type': 'validation', 'validation_type': 'k_fold', 'split_seed': 0, 'number_of_splits': 20}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'size': 95, 'activation': 'relu'}]
+Mean sqr error: 1372.6189934992976
+Mean abs error: 27.762665545591414
+[0.001372618993499298, 0.027762665545591418]
+
+{'train_type': 'validation', 'validation_type': 'k_fold', 'number_of_splits': 20, 'split_seed': 0}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 15}]
+Mean sqr error: 1493.121381480947
+Mean abs error: 29.712028634797697
+[0.0014931213814809478, 0.0297120286347977]
+
+{'split_seed': 0, 'number_of_splits': 20, 'validation_type': 'k_fold', 'train_type': 'validation'}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 20}]
+Mean sqr error: 1478.4733647787157
+Mean abs error: 29.596860242962187
+[0.001478473364778716, 0.02959686024296219]
+
+{'split_seed': 0, 'number_of_splits': 20, 'validation_type': 'k_fold', 'train_type': 'validation'}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 20}]
+Mean sqr error: 1478.4733647787157
+Mean abs error: 29.596860242962187
+
+{'validation_type': 'k_fold', 'split_seed': 0, 'train_type': 'validation', 'number_of_splits': 20}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'size': 25, 'activation': 'relu'}]
+Mean sqr error: 1429.0255209820325
+Mean abs error: 28.537783557933267
+[0.0014290255209820331, 0.028537783557933273]
+[0.001478473364778716, 0.02959686024296219]
+
+{'number_of_splits': 20, 'validation_type': 'k_fold', 'train_type': 'validation', 'split_seed': 0}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 105}]
+Mean sqr error: 1332.3864702049927
+Mean abs error: 27.440702857564315
+[0.0013323864702049933, 0.02744070285756432]
+
+{'validation_type': 'k_fold', 'split_seed': 0, 'number_of_splits': 20, 'train_type': 'validation'}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 110}]
+Mean sqr error: 1395.7282508875276
+Mean abs error: 27.977983807095427
+[0.001395728250887528, 0.02797798380709543]
+
+{'train_type': 'validation', 'validation_type': 'k_fold', 'split_seed': 0, 'number_of_splits': 20}
+NeuralNet
+learning_rate: 0.15
+number_of_epochs: 200
+layers: [{'activation': 'relu', 'size': 115}]
+Mean sqr error: 1310.8758843319513
+Mean abs error: 27.16828445804103
+[0.0013108758843319516, 0.02716828445804103]
+
+
+=======================================
+
+Bar chart experiments
+
+Velocity, MULTIPLY_NUMBER=100, MULTIPLY_RANGE=(-1, 1)
+5 experiments for each settings set:
+lr=0.02, epochs=20,  layers=30/relu, val_t=70/30-sv
+lr=0.20, epochs=20,  layers=50/relu, val_t=70/30-sv
+lr=0.20, epochs=20,  layers=50/relu, val_t=3-fold-cv
+lr=0.20, epochs=20,  layers=50/relu, val_t=20-fold-cv
+lr=0.20, epochs=50,  layers=50/relu, val_t=20-fold-cv
+lr=0.20, epochs=200, layers=50/relu, val_t=20-fold-cv
+lr=0.15, epochs=200, layers=50/relu-20/relu, val_t=20-fold-cv
+
+
+lr=0.02, epochs=20,  layers=30/relu, val_t=70/30-sv
+
+Mean sqr error: 5343.156702815058
+Mean abs error: 58.51005392019139
+[0.0053431567028150604, 0.0585100539201914]
+
+Mean sqr error: 5261.584691747768
+Mean abs error: 57.56588748952215
+[0.005261584691747771, 0.057565887489522155]
+
+Mean sqr error: 5525.711348273675
+Mean abs error: 58.89750764582508
+[0.005525711348273676, 0.05889750764582509]
+
+Mean sqr error: 4931.940235653139
+Mean abs error: 56.15619380945383
+[0.00493194023565314, 0.056156193809453844]
+
+Mean sqr error: 3912.5754403693895
+Mean abs error: 49.99350625877233
+[0.003912575440369391, 0.04999350625877233]
+
+
+lr=0.20, epochs=20,  layers=50/relu, val_t=70/30-sv
+
+Mean sqr error: 3162.032361794636
+Mean abs error: 42.102242545564046
+[0.0031620323617946367, 0.04210224254556405]
+
+Mean sqr error: 2725.0628353622947
+Mean abs error: 40.10136974735777
+[0.002725062835362296, 0.04010136974735778]
+
+Mean sqr error: 2741.496167557557
+Mean abs error: 40.28072122779003
+[0.0027414961675575576, 0.040280721227790035]
+
+Mean sqr error: 4015.541879825016
+Mean abs error: 49.180122575094536
+[0.004015541879825017, 0.04918012257509453]
+
+Mean sqr error: 2722.042970492788
+Mean abs error: 40.93486958788347
+[0.002722042970492788, 0.04093486958788347]
+
+
+lr=0.20, epochs=20,  layers=50/relu, val_t=3-fold-cv
+
+Mean sqr error: 2956.6830462323906
+Mean abs error: 42.29886084699487
+[0.0029566830462323915, 0.042298860846994885]
+
+Mean sqr error: 3094.2125093338072
+Mean abs error: 42.31607240938604
+[0.0030942125093338085, 0.04231607240938604]
+
+Mean sqr error: 3089.8458512035554
+Mean abs error: 42.824232963646374
+[0.0030898458512035563, 0.04282423296364638]
+
+Mean sqr error: 3511.690231811146
+Mean abs error: 45.35572390050589
+[0.003511690231811148, 0.045355723900505907]
+
+Mean sqr error: 3073.410224946023
+Mean abs error: 43.50015452465083
+[0.0030734102249460244, 0.043500154524650836]
+
+
+lr=0.20, epochs=20,  layers=50/relu, val_t=20-fold-cv
+
+Mean sqr error: 2796.9359790863277
+Mean abs error: 40.54769043647069
+[0.002796935979086329, 0.0405476904364707]
+
+Mean sqr error: 2841.145501471973
+Mean abs error: 40.86111794888076
+[0.002841145501471974, 0.04086111794888077]
+
+Mean sqr error: 2771.9225419993436
+Mean abs error: 39.887271412932265
+[0.0027719225419993447, 0.03988727141293228]
+
+Mean sqr error: 2999.1486386301135
+Mean abs error: 42.37370132590612
+[0.002999148638630115, 0.042373701325906135]
+
+Mean sqr error: 2829.074420756818
+Mean abs error: 40.63683571543804
+[0.0028290744207568196, 0.04063683571543806]
+
+
+lr=0.20, epochs=50,  layers=50/relu, val_t=20-fold-cv
+
+Mean sqr error: 1825.198359873562
+Mean abs error: 33.408823852573306
+[0.0018251983598735627, 0.033408823852573315]
+
+Mean sqr error: 1837.5340518109454
+Mean abs error: 32.85897451335281
+[0.0018375340518109462, 0.03285897451335282]
+
+Mean sqr error: 1787.412511424434
+Mean abs error: 32.658691408617884
+[0.0017874125114244344, 0.032658691408617886]
+
+Mean sqr error: 1883.8277717173885
+Mean abs error: 33.50617320381666
+[0.001883827771717389, 0.033506173203816665]
+
+Mean sqr error: 1918.289522819412
+Mean abs error: 33.4331187896086
+[0.0019182895228194129, 0.033433118789608605]
+
+
+lr=0.20, epochs=200, layers=50/relu, val_t=20-fold-cv
+
+Mean sqr error: 1472.205382690841
+Mean abs error: 28.96423319942648
+[0.0014722053826908411, 0.02896423319942648]
+
+Mean sqr error: 1349.6963596381931
+Mean abs error: 27.71129086201315
+[0.0013496963596381934, 0.027711290862013155]
+
+Mean sqr error: 1467.039952384412
+Mean abs error: 29.000765480678808
+[0.001467039952384412, 0.029000765480678814]
+
+Mean sqr error: 1406.7912865222595
+Mean abs error: 28.583927654902844
+[0.0014067912865222598, 0.028583927654902853]
+
+Mean sqr error: 1391.4504320054807
+Mean abs error: 28.018236764264174
+[0.001391450432005481, 0.028018236764264175]
+
+
+lr=0.15, epochs=200, layers=50/relu-20/relu, val_t=20-fold-cv
+
+Mean sqr error: 1271.8460661680017
+Mean abs error: 26.553942298357526
+[0.0012718460661680022, 0.02655394229835753]
+
+Mean sqr error: 1256.922766393404
+Mean abs error: 26.04855423693536
+[0.0012569227663934042, 0.02604855423693537]
+
+Mean sqr error: 1277.7552567811972
+Mean abs error: 26.249728955558
+[0.0012777552567811976, 0.026249728955558]
+
+Mean sqr error: 1290.8852739050103
+Mean abs error: 26.605780267559716
+[0.0012908852739050105, 0.02660578026755972]
+
+Mean sqr error: 1309.674910467651
+Mean abs error: 26.84472841183562
+[0.0013096749104676514, 0.026844728411835623]
+
+
+
+Depth, MULTIPLY_NUMBER=100, MULTIPLY_RANGE=(-0.05, 0.05)
+5 experiments for each settings set:
+lr=0.20, epochs=200,  layers=50/relu-20/relu, val_t=20-fold-cv
+lr=0.20, epochs=200,  layers=50/relu-30/relu, val_t=20-fold-cv
+lr=0.20, epochs=200,  layers=50/relu-50/relu, val_t=20-fold-cv
+lr=0.20, epochs=300,  layers=50/relu-30/relu, val_t=20-fold-cv
+lr=0.20, epochs=500,  layers=50/relu-30/relu, val_t=20-fold-cv
+lr=0.20, epochs=1000, layers=50/relu-30/relu, val_t=20-fold-cv
+lr=0.20, epochs=2000, layers=50/relu-30/relu, val_t=20-fold-cv
+
+
+lr=0.20, epochs=200,  layers=50/relu-20/relu, val_t=20-fold-cv
+
+Mean sqr error: 40.92297155424976
+Mean abs error: 3.81543455285368
+[4.092297155424977e-05, 0.00381543455285368]
+
+Mean sqr error: 45.73047816465049
+Mean abs error: 3.88424213584752
+[4.57304781646505e-05, 0.0038842421358475203]
+
+Mean sqr error: 33.817607212837274
+Mean abs error: 3.4374829205846167
+[3.3817607212837274e-05, 0.0034374829205846163]
+
+Mean sqr error: 41.087623245773855
+Mean abs error: 3.538107958599089
+[4.108762324577386e-05, 0.003538107958599089]
+
+Mean sqr error: 39.86195928283478
+Mean abs error: 3.5741212970550422
+[3.98619592828348e-05, 0.0035741212970550424]
+
+
+lr=0.20, epochs=200,  layers=50/relu-30/relu, val_t=20-fold-cv
+
+Mean sqr error: 36.96424810745798
+Mean abs error: 3.606254026897955
+[3.6964248107457993e-05, 0.003606254026897955]
+
+Mean sqr error: 29.921726898284835
+Mean abs error: 3.287177476445277
+[2.9921726898284844e-05, 0.003287177476445277]
+
+Mean sqr error: 33.12641110781799
+Mean abs error: 3.512520927086615
+[3.312641110781799e-05, 0.0035125209270866153]
+
+Mean sqr error: 24.13950663243805
+Mean abs error: 2.899739600767352
+[2.4139506632438056e-05, 0.0028997396007673522]
+
+Mean sqr error: 32.72522701700143
+Mean abs error: 3.2550339817582907
+[3.272522701700144e-05, 0.003255033981758291]
+
+
+lr=0.20, epochs=200,  layers=50/relu-50/relu, val_t=20-fold-cv
+
+Mean sqr error: 26.70596769904974
+Mean abs error: 3.063207704578354
+[2.670596769904975e-05, 0.0030632077045783545]
+
+Mean sqr error: 23.99555212898346
+Mean abs error: 2.8544133171092634
+[2.3995552128983467e-05, 0.0028544133171092634]
+
+Mean sqr error: 21.319107448150575
+Mean abs error: 2.8196149288951617
+[2.131910744815058e-05, 0.0028196149288951615]
+
+Mean sqr error: 19.69230498088747
+Mean abs error: 2.644565889457223
+[1.9692304980887476e-05, 0.002644565889457223]
+
+Mean sqr error: 28.950806974968685
+Mean abs error: 3.281639483523964
+[2.8950806974968692e-05, 0.003281639483523964]
+
+
+lr=0.20, epochs=300,  layers=50/relu-30/relu, val_t=20-fold-cv
+
+Mean sqr error: 15.985165973362703
+Mean abs error: 2.4231462282672136
+[1.598516597336271e-05, 0.002423146228267214]
+
+Mean sqr error: 14.120746568735182
+Mean abs error: 2.231579819935617
+[1.4120746568735188e-05, 0.0022315798199356177]
+
+Mean sqr error: 20.788769117262174
+Mean abs error: 2.707413961144136
+[2.078876911726218e-05, 0.002707413961144136]
+
+Mean sqr error: 20.238344451132882
+Mean abs error: 2.6094721260136846
+[2.0238344451132888e-05, 0.0026094721260136846]
+
+Mean sqr error: 20.716249983753286
+Mean abs error: 2.6043893234407283
+[2.071624998375329e-05, 0.0026043893234407286]
+
+
+
+lr=0.20, epochs=500,  layers=50/relu-30/relu, val_t=20-fold-cv
+
+Mean sqr error: 7.283353781347378
+Mean abs error: 1.7077264858409251
+[7.2833537813473805e-06, 0.0017077264858409256]
+
+Mean sqr error: 9.69754592384925
+Mean abs error: 1.9699343152191342
+[9.69754592384925e-06, 0.0019699343152191342]
+
+Mean sqr error: 7.815732305084239
+Mean abs error: 1.678840950096151
+[7.815732305084242e-06, 0.0016788409500961509]
+
+Mean sqr error: 8.32651933896652
+Mean abs error: 1.8345294744832246
+[8.326519338966523e-06, 0.0018345294744832245]
+
+Mean sqr error: 7.453651627578351
+Mean abs error: 1.7077458884282657
+[7.453651627578353e-06, 0.0017077458884282657]
+
+
+lr=0.20, epochs=1000, layers=50/relu-30/relu, val_t=20-fold-cv
+
+Mean sqr error: 16.40325569424264
+Mean abs error: 1.7553977066429305
+[1.6403255694242643e-05, 0.00175539770664293]
+
+Mean sqr error: 3.0301828553442522
+Mean abs error: 1.1157462886864606
+[3.0301828553442524e-06, 0.0011157462886864605]
+
+Mean sqr error: 4.44707649706921
+Mean abs error: 1.299979615957768
+[4.447076497069212e-06, 0.0012999796159577682]
+
+Mean sqr error: 3.457824860159757
+Mean abs error: 1.2199026517765712
+[3.4578248601597586e-06, 0.001219902651776571]
+
+Mean sqr error: 3.0072744870970327
+Mean abs error: 1.0978712631790566
+[3.007274487097034e-06, 0.0010978712631790565]
+
+
+lr=0.20, epochs=2000, layers=50/relu-30/relu, val_t=20-fold-cv
+
+Mean sqr error: 2.010625042861962
+Mean abs error: 0.9967205429124032
+[2.0106250428619626e-06, 0.0009967205429124034]
+
+Mean sqr error: 1.7793027857088461
+Mean abs error: 0.9200487038309696
+[1.7793027857088462e-06, 0.0009200487038309696]
+
+Mean sqr error: 2.172705860750101
+Mean abs error: 0.9829845834104536
+[2.172705860750101e-06, 0.0009829845834104535]
+
+Mean sqr error: 1.7722003309586114
+Mean abs error: 0.9200415271836576
+[1.7722003309586112e-06, 0.0009200415271836574]
+
+Mean sqr error: 1.8590495153375872
+Mean abs error: 0.9421177014967403
+[1.8590495153375876e-06, 0.0009421177014967405]
+
